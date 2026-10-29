@@ -1,0 +1,22 @@
+{
+  "name": "health-bridge",
+  "version": "1.0.0",
+  "description": "Writes hot flushes and night sweats to Apple Health. Write-only; nothing is read back.",
+  "main": "dist/esm/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "files": [
+    "dist/",
+    "ios/Sources",
+    "HealthBridge.podspec"
+  ],
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    }
+  },
+  "peerDependencies": {
+    "@capacitor/core": ">=7.0.0"
+  },
+  "license": "MIT"
+}

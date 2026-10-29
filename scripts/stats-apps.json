@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Flytteklar",
+    "ascAppId": "6820016940",
+    "packageName": "app.flyttero.mobile",
+    "revenueCatProjectId": "868a7936"
+  },
+  {
+    "name": "Furkeep",
+    "ascAppId": "6823551971",
+    "packageName": "com.ilumie.furkeep",
+    "revenueCatProjectId": "a3924786"
+  },
+  {
+    "name": "Abonnia",
+    "ascAppId": "6824070842",
+    "packageName": "com.ilumie.abonnia",
+    "revenueCatProjectId": "eebe94bc"
+  }
+]

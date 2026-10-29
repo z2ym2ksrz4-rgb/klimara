@@ -1,0 +1,12 @@
+{
+  "name": "widget-bridge",
+  "version": "1.0.0",
+  "description": "Hands a small JSON snapshot to home-screen widgets (App Group on iOS, SharedPreferences on Android) and asks them to refresh.",
+  "main": "dist/esm/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "files": ["android/src/main/", "android/build.gradle", "dist/", "ios/Sources", "WidgetBridge.podspec"],
+  "capacitor": { "ios": { "src": "ios" }, "android": { "src": "android" } },
+  "peerDependencies": { "@capacitor/core": ">=7.0.0" },
+  "license": "MIT"
+}

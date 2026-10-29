@@ -1,0 +1,548 @@
+{
+  "nav": {
+    "test": "Test"
+  },
+  "common": {
+    "disclaimer": "Fodmara er en dagbok for selvobservasjon, ikke medisinsk utstyr. Den stiller ingen diagnoser og gir ingen kost- eller behandlingsråd. Snakk med legen eller klinisk ernæringsfysiolog om det du logger."
+  },
+  "home": {
+    "actingUp": "Magen krangler nå",
+    "actingUpHint": "Logg en oppblussing – detaljer kan vente",
+    "openSince": "Magen har kranglet siden {{time}}",
+    "endFlare": "Det har roet seg",
+    "avg7": "snittverdi for magen",
+    "flaresMonth_one": "oppblussing denne måneden",
+    "flaresMonth_other": "oppblussinger denne måneden",
+    "empty": "Ingen oppblussinger logget.",
+    "logMeal": "Måltid",
+    "logStool": "Toalett",
+    "todayTitle": "I dag",
+    "todayEmpty": "Ingenting logget i dag ennå. Et måltid eller et toalettbesøk tar fem sekunder.",
+    "fields": {
+      "bloating": "Oppblåsthet",
+      "pain": "Smerter",
+      "sleep": "Søvn i natt",
+      "stress": "Stress"
+    },
+    "fieldHint": {
+      "bloating": "1 ingen · 5 mye",
+      "pain": "1 ingen · 5 mye",
+      "sleep": "1 dårlig · 5 god",
+      "stress": "1 rolig · 5 mye"
+    }
+  },
+  "gutScale": {
+    "question": "Hvordan har magen det i dag?",
+    "pick": "Trykk på et tall",
+    "min": "0 · ingen plager",
+    "max": "10 · så ille som det blir",
+    "level": {
+      "none": "Ingen plager",
+      "mild": "Lette plager",
+      "moderate": "Merkbart",
+      "bad": "Ille",
+      "veryBad": "Veldig ille"
+    },
+    "infoTitle": "Om skalaen 0–10",
+    "infoWhat": "Gi magen et tall for dagen som helhet – oppblåsthet, smerter, luft, en mage som haster eller står stille – ikke det verste øyeblikket (det er det en oppblussing er til for). Tallet er ditt: sammenlign det med dine egne dager.",
+    "infoScale": [
+      "0 – ingen plager",
+      "1–3 – den er der, men endrer ikke dagen din",
+      "4–6 – merkbart, du planlegger etter det",
+      "7–8 – ille, det står i veien",
+      "9–10 – så ille som det noen gang blir"
+    ],
+    "infoTip": "Sjekk inn omtrent samme tid hver kveld. Oppblåsthet og smerter logges hver for seg fordi de ofte beveger seg ulikt."
+  },
+  "episode": {
+    "title": "Oppblussing",
+    "ongoing": "Magen krangler akkurat nå",
+    "intensity": "Hvor ille på det verste",
+    "mildLbl": "lett",
+    "severeLbl": "veldig ille",
+    "deleteConfirm": "Slette denne oppblussingen?",
+    "quickIntro": "Logget. Resten kan vente til det har roet seg.",
+    "howBad": "Hvor ille er det akkurat nå?",
+    "howBadNow": "Hvor ille er det akkurat nå?",
+    "level": {
+      "mild": "Lett",
+      "moderate": "Ille",
+      "severe": "Veldig ille"
+    },
+    "journey": {
+      "symptom": "Hva kjenner du?",
+      "location": "Hvor i magen?",
+      "trigger": "Hva tror du satte det i gang?",
+      "relief": "Hva hjalp?",
+      "meds": "Tok du noe?",
+      "note": "Noe å huske?"
+    },
+    "cmpTitle": "Denne oppblussingen mot snittet ditt",
+    "cmpThis": "Denne oppblussingen",
+    "cmpAvg": "Snitt av {{n}} oppblussinger",
+    "cmpNeedMore": "Logg noen oppblussinger til, så viser den her hvordan denne ligger an mot snittet ditt.",
+    "cmpLocked": "Pro viser hvordan denne oppblussingen ligger an mot snittet ditt.",
+    "liveHint": "Når det roer seg, kommer noen korte spørsmål – svar på det du kan."
+  },
+  "calendar": {
+    "flare": "Oppblussing",
+    "gut": "Mage {{n}} – {{word}}"
+  },
+  "meds": {
+    "sub": "Dine egne legemidler og kosttilskudd, med navn. Fodmara foreslår aldri behandling eller doser.",
+    "namePh": "f.eks. Imodium eller peppermynteolje",
+    "acuteHint": "Logg hva du tok under en oppblussing i de siste stegene."
+  },
+  "insights": {
+    "lockedTitle": "Mønstrene dine krever Pro",
+    "lockedBody": "Magens tall over 90 dager og per måned, hvilke matvarer og FODMAP-grupper som kommer før oppblussinger, Bristol-typene dine, hvordan søvn og stress henger sammen – pluss PDF-en til ernæringsfysiologen din.",
+    "gut90": "Magen, siste 90 dager",
+    "gut90Hint": "Prikker = dine daglige innsjekker · linje = 7-dagerssnitt",
+    "monthly": "Snittverdi for magen per måned",
+    "avgGut": "snitt mage (0–10)",
+    "avgBloating": "snitt oppblåsthet (1–5)",
+    "flares": "Oppblussinger",
+    "avgFlareHours": "snitt timer per oppblussing",
+    "shareOfFlares": "andel av oppblussinger",
+    "patWeekday": "{{pct}} % av oppblussingene dine startet en {{day}}",
+    "patTime": "{{pct}} % av oppblussingene dine startet om {{part}}",
+    "patPeriod": "{{pct}} % av oppblussingene dine startet innen en dag fra mensen",
+    "patBasis": "Basert på {{n}} oppblussinger de siste 6 månedene",
+    "patNote": "Mønstre beskriver dagboken din – de beviser ikke en årsak. Ta dem med til legen eller ernæringsfysiologen din.",
+    "contrast": {
+      "sleep": "Etter gode netter (4–5) lå magen i snitt på {{hi}} – etter dårlige netter (1–2) på {{lo}}",
+      "stress": "På stressede dager (4–5) lå den i snitt på {{hi}} – på rolige dager (1–2) på {{lo}}"
+    },
+    "mealsTitle": "Måltider før oppblussinger",
+    "mealPat": "{{name}}: en oppblussing fulgte innen 24 timer etter {{pct}} % av måltidene – {{other}} % etter andre måltider",
+    "mealPatBasis": "{{n}} måltider med · {{o}} uten · siste 6 måneder",
+    "mealPatNote": "Teller en oppblussing som startet 2–24 timer etter et måltid. At et måltid kom før en oppblussing, beviser ikke at det var årsaken – det er reintroduksjonstestene som viser det.",
+    "mealPatNeed": "Logg måltider og oppblussinger i noen uker, så sammenligner den matvarer og FODMAP-grupper. ({{n}} måltider så langt)",
+    "bristolTitle": "Bristol-typer",
+    "bristolSummary": "{{n}} toalettbesøk: {{mid}} type 3–4, {{hard}} type 1–2, {{loose}} type 5–7. Det hastet {{urg}} ganger."
+  },
+  "learn": {
+    "trendDown": "De siste 30 dagene lå magen i snitt på {{now}} – ned fra {{before}} de 30 dagene før.",
+    "trendUp": "De siste 30 dagene lå magen i snitt på {{now}} – opp fra {{before}} de 30 dagene før.",
+    "trendSame": "De siste 30 dagene lå magen i snitt på {{now}} – omtrent som de 30 dagene før ({{before}}).",
+    "contrast": {
+      "sleep": "Etter gode netter lå magen i snitt på {{hi}}, etter dårlige netter på {{lo}}.",
+      "stress": "På stressede dager lå den i snitt på {{hi}}, på rolige dager på {{lo}}."
+    },
+    "weekday": "{{pct}} % av oppblussingene dine startet en {{day}}.",
+    "time": "Oppblussingene dine starter oftest om {{part}} ({{pct}} %).",
+    "period": "{{pct}} % av oppblussingene dine startet innen en dag fra mensen.",
+    "trigger": "«{{tag}}» er det du oftest logger som utløser – ved {{pct}} % av oppblussingene.",
+    "relief": "«{{tag}}» hjalp ved {{pct}} % av oppblussingene dine.",
+    "meal": "Etter måltider med {{name}} fulgte en oppblussing i {{pct}} % av tilfellene – mot {{other}} % etter andre måltider."
+  },
+  "report": {
+    "title": "IBS-dagbok – rapport",
+    "sub": "Oversikt, magens tall uke for uke, resultater fra reintroduksjonen, måltider før oppblussinger og én linje per oppblussing – satt opp for ernæringsfysiologen eller legen din.",
+    "chartTitle": "Magen per uke",
+    "notesPh": "Spørsmål, matvarer du vil teste, endringer, medisiner…",
+    "hardDays": "Dårlige dager (mage 7+)",
+    "legendGut": "Snittverdi for magen (0–10)",
+    "legendFlares": "Oppblussinger den uken",
+    "gutShort": "Mage",
+    "flares": "Oppblussinger",
+    "scaleNote": "Magens tall 0–10; oppblåsthet, smerter, søvn og stress 1–5 (søvn: 5 = god).",
+    "mealsLogged": "Måltider logget",
+    "stoolsLogged": "Toalettbesøk logget",
+    "bloodNoted": "Blod notert (ganger)",
+    "stoolsShort": "Toalett",
+    "challenges": "Reintroduksjonstester",
+    "group": "Gruppe",
+    "testFood": "Testmatvare",
+    "started": "Startet",
+    "result": "Ditt resultat",
+    "gutBefore": "Mage, uken før",
+    "gutTest": "Mage, testdager",
+    "foodOrGroup": "Matvare / gruppe",
+    "mealsWith": "Måltider",
+    "followedWith": "Oppblussing innen 24 t",
+    "followedOther": "Andre måltider"
+  },
+  "notif": {
+    "checkinTitle": "Hvordan har magen det i dag?",
+    "checkinBody": "En innsjekk på 5 sekunder holder kurven din komplett.",
+    "openBody": "En oppblussing har stått åpen i 12 timer. Trykk for å sette når den sluttet.",
+    "actionContinue": "Pågår fortsatt",
+    "testTitle": "Testdag: {{group}}",
+    "testBody": "I dag: {{portion}} {{food}}. Logg hvordan magen har det i kveld.",
+    "resultTitle": "Hvordan gikk testen?",
+    "resultBody": "Testen med {{food}} og pausen er ferdig. Noter resultatet ditt."
+  },
+  "settings": {
+    "openEpisodeReminder": "Påminn meg hvis en oppblussing står åpen i 12 timer",
+    "freeHint": "Ubegrenset logging. Pro gir reintroduksjonsplanen, mønstre, PDF-rapporten og PIN-låsen.",
+    "cycleHint": "Legger til «mens i dag» i innsjekken og viser andelen oppblussinger rundt mensen.",
+    "fodmap": "Lav-FODMAP"
+  },
+  "paywall": {
+    "title": "Finn ut hva magen din tåler",
+    "benefits": [
+      "Reintroduksjonsplan: én FODMAP-gruppe om gangen, med påminnelser",
+      "Hvilke matvarer og grupper som kommer før oppblussinger",
+      "PDF-rapport ernæringsfysiologen din leser på ett minutt",
+      "PIN-lås, kryptert sikkerhetskopi og ubegrenset historikk"
+    ],
+    "reasons": {
+      "insights": "Mønstrene dine og rapporten er en del av Pro.",
+      "reintro": "Reintroduksjonsplanen er en del av Pro.",
+      "cycle": "Syklussporing er en del av Pro.",
+      "health": "Eksport til Apple Helse er en del av Pro."
+    }
+  },
+  "onboarding": {
+    "steps": [
+      {
+        "title": "Ett tall om dagen",
+        "body": "Hvordan hadde magen det i dag, 0–10? Fem sekunder om kvelden. Over uker blir tallet en kurve som ernæringsfysiologen din faktisk kan bruke."
+      },
+      {
+        "title": "Måltider, toalett, oppblussinger",
+        "body": "Logg et måltid med noen trykk, et toalettbesøk med ett og en oppblussing når magen krangler. Detaljene kan vente."
+      },
+      {
+        "title": "Test én gruppe om gangen",
+        "body": "Etter eliminasjonsfasen planlegger Fodmara reintroduksjonstestene dine og tar vare på resultatene – privat, på telefonen din, uten konto."
+      }
+    ],
+    "welcome": "Velkommen til Fodmara",
+    "setupTitle": "Om magen din {{name}}",
+    "setupBody": "Valgfritt – det står øverst i rapporten slik at ernæringsfysiologen din ser det grunnleggende.",
+    "widgetBody": "Widgeten logger en oppblussing uten å åpne appen og viser dagens tall og 7-dagerssnittet ditt.",
+    "extrasBody": "Valgfritt og en del av Pro – det slås på så snart du starter den gratis prøveperioden.",
+    "typeQ": "Hvordan viser IBS-en din seg mest?",
+    "typeQShort": "Type",
+    "type": {
+      "diarrhoea": "Mest diaré (IBS-D)",
+      "constipation": "Mest forstoppelse (IBS-C)",
+      "mixed": "Begge deler (IBS-M)",
+      "unsure": "Vet ikke"
+    },
+    "diagnosedQ": "Har en lege stilt diagnosen IBS?",
+    "diagnosedQShort": "Diagnose",
+    "diagnosed": {
+      "yes": "Ja",
+      "inProgress": "Blir utredet",
+      "no": "Nei"
+    },
+    "sinceQ": "Hvor lenge har du hatt plager?",
+    "sinceQShort": "Siden",
+    "since": {
+      "lt1y": "Under ett år",
+      "1to5y": "1–5 år",
+      "gt5y": "Over 5 år"
+    },
+    "phaseQ": "Hvor er du med lav-FODMAP?",
+    "newHint": "Få plagene dine undersøkt av lege før du starter med lav-FODMAP – andre sykdommer (f.eks. cøliaki) kan ligne IBS."
+  },
+  "diary": {
+    "groups": {
+      "symptom": "Plager",
+      "location": "Hvor",
+      "trigger": "Mulig utløser",
+      "relief": "Hva hjalp"
+    },
+    "tags": {
+      "symptom": {
+        "bloating": "Oppblåsthet",
+        "cramps": "Kramper",
+        "pain": "Magesmerter",
+        "gas": "Luft",
+        "rumbling": "Rumling",
+        "diarrhoea": "Diaré",
+        "constipation": "Forstoppelse",
+        "urgency": "Det haster",
+        "nausea": "Kvalme",
+        "heartburn": "Halsbrann",
+        "fatigue": "Tretthet",
+        "headache": "Hodepine",
+        "anxiety": "Bekymring / uro"
+      },
+      "location": {
+        "upper": "Øverst i magen",
+        "lower": "Nederst i magen",
+        "left": "Venstre side",
+        "right": "Høyre side",
+        "all_over": "Hele magen"
+      },
+      "trigger": {
+        "meal": "Et måltid",
+        "large_meal": "Stort måltid",
+        "fatty_food": "Fet mat",
+        "spicy_food": "Sterk mat",
+        "coffee": "Kaffe",
+        "alcohol": "Alkohol",
+        "fizzy_drink": "Kullsyreholdig drikke",
+        "ate_fast": "Spiste fort",
+        "eating_out": "Spiste ute",
+        "skipped_meal": "Hoppet over et måltid",
+        "stress": "Stress",
+        "poor_sleep": "Dårlig søvn",
+        "period": "Mens",
+        "travel": "Reise",
+        "medication_change": "Endret medisin",
+        "illness": "Sykdom"
+      },
+      "relief": {
+        "heat_pad": "Varmepute",
+        "peppermint_tea": "Peppermyntete",
+        "walk": "En gåtur",
+        "lie_down": "Lå ned",
+        "toilet": "Toalettbesøk",
+        "loose_clothes": "Løse klær",
+        "breathing": "Pusteøvelse",
+        "relaxation": "Avslapning",
+        "massage": "Magemassasje",
+        "warm_drink": "Varm drikke",
+        "rest": "Hvile",
+        "distraction": "Avledning"
+      }
+    }
+  },
+  "widget": {
+    "title": "Oppblussings-widget",
+    "ongoing": "Magen krangler akkurat nå",
+    "settingsHint": "Logg en oppblussing fra startskjermen eller låseskjermen",
+    "previewLine1": "I dag: 3/10",
+    "previewLine2": "Snitt 7 dager 3,4 · 2 oppblussinger denne måneden",
+    "intro": "Ett trykk på widgeten logger en oppblussing – du trenger ikke finne appen først.",
+    "actingUp": "Magen krangler",
+    "openFlare": "Oppblussing pågår",
+    "flares_one": "{{count}} oppblussing denne måneden",
+    "flares_other": "{{count}} oppblussinger denne måneden"
+  },
+  "redFlags": {
+    "link": "Når bør jeg gå til lege?",
+    "title": "Når du bør gå til lege",
+    "intro": "IBS er plagsomt, men ikke farlig. Noen plager passer ikke med IBS og bør undersøkes:",
+    "urgentTitle": "Samme dag – eller ring 113",
+    "urgent": [
+      "Kraftig blødning fra endetarmen, svart eller tjæreaktig avføring eller oppkast med blod.",
+      "Plutselige, kraftige magesmerter som ikke gir seg, eller smerter med høy feber.",
+      "Du får ikke ut avføring eller luft, magen hovner opp, og du kaster opp."
+    ],
+    "soonTitle": "Bestill time snart",
+    "soon": [
+      "Blod i avføringen.",
+      "Vekttap du ikke kan forklare.",
+      "Plager som vekker deg om natten.",
+      "En varig endring i avføringsvanene, særlig hvis du er over 50.",
+      "Tarm- eller eggstokkreft, cøliaki eller inflammatorisk tarmsykdom i familien.",
+      "Tretthet med lavt jern eller blodmangel, eller feber som kommer tilbake.",
+      "Oppblåsthet nesten hver dag i flere uker (særlig for kvinner over 50)."
+    ],
+    "routine": "Er IBS-en din diagnostisert, og ingenting over stemmer, gjøres lav-FODMAP best sammen med en klinisk ernæringsfysiolog. Fastlegen din kan henvise deg.",
+    "disclaimer": "Generell informasjon, ikke en diagnose. Er du i tvil, ring fastlegen eller legevakten (116 117)."
+  },
+  "meal": {
+    "title": "Måltid",
+    "when": "Når",
+    "onPlate": "På tallerkenen",
+    "contains": "Inneholder vanligvis: {{groups}}",
+    "containsNone": "Ingen av de seks FODMAP-gruppene i det du har valgt.",
+    "searchPh": "Søk i matvarer…",
+    "addOwn": "Legg til «{{name}}»",
+    "usual": "Dine faste",
+    "browse": "Bla gjennom",
+    "note": "Notat",
+    "notePh": "Restaurant, porsjonsstørrelse, tilberedning…",
+    "hint": "Bare hva du spiste – mengden bestemmer du. Gruppene er typisk innhold, ikke en dom.",
+    "deleteConfirm": "Slette dette måltidet?",
+    "empty": "ingen matvarer lagt til",
+    "photo": "Bilde",
+    "photoTake": "Ta bilde",
+    "photoPick": "Velg bilde",
+    "photoRemove": "Fjern bilde",
+    "photoHint": "Blir på denne telefonen – ikke i sikkerhetskopien eller PDF-en."
+  },
+  "stool": {
+    "title": "Toalettbesøk",
+    "bristolQ": "Hvordan så det ut?",
+    "when": "Når",
+    "type": {
+      "1": "Harde klumper",
+      "2": "Klumpete",
+      "3": "Med sprekker",
+      "4": "Glatt",
+      "5": "Myke biter",
+      "6": "Grøtaktig",
+      "7": "Vandig"
+    },
+    "typeLong": {
+      "1": "separate harde klumper, vanskelige å få ut",
+      "2": "pølseformet, men klumpete",
+      "3": "som en pølse med sprekker i overflaten",
+      "4": "som en glatt, myk pølse",
+      "5": "myke biter med tydelige kanter",
+      "6": "luftige, grøtaktige biter med frynsete kanter",
+      "7": "vandig, ingen faste biter"
+    },
+    "typeShort": "Type {{n}}",
+    "urgency": "Det hastet",
+    "incomplete": "Ikke helt ferdig",
+    "blood": "Blod",
+    "bloodTitle": "Blod i avføringen bør undersøkes",
+    "bloodBody": "Bestill time hos fastlegen. Kraftig blødning eller svart avføring: søk hjelp samme dag. Trykk for mer.",
+    "infoTitle": "Bristol-skalaen",
+    "infoWhat": "Leger og ernæringsfysiologer bruker Bristol-skalaen for å beskrive avføringens konsistens uten pinlige ord. Type 3–4 regnes som regel som normalt; 1–2 tyder på langsom passasje, 5–7 på rask.",
+    "infoTip": "Logg det du ser rett etter besøket – hukommelsen blir uklar utover kvelden.",
+    "deleteConfirm": "Slette dette toalettbesøket?"
+  },
+  "foods": {
+    "title": "Matvarer",
+    "intro": "Hvilke FODMAP-grupper en matvare vanligvis inneholder. Mengden betyr mye – mange matvarer går fint i små porsjoner.",
+    "what": "Hva er FODMAP?",
+    "noGroup": "ingen av de seks gruppene",
+    "portion": "mengden betyr noe",
+    "none": "Ingen treff.",
+    "yours": "Dine egne matvarer",
+    "untagged": "ingen grupper satt – trykk Rediger",
+    "hide": "Fjern fra listen",
+    "disclaimer": "Generell informasjon fra offentlige kilder, ikke en personlig kostplan. Ernæringsfysiologen din avgjør hva og hvor mye.",
+    "settingsHint": "Hvilke FODMAP-grupper vanlige matvarer inneholder",
+    "open": "Åpne"
+  },
+  "food": {
+    "cat": {
+      "veg": "Grønnsaker",
+      "fruit": "Frukt",
+      "grain": "Brød og korn",
+      "dairy": "Meieri",
+      "protein": "Kjøtt, fisk og egg",
+      "legume": "Bønner og linser",
+      "nut": "Nøtter og frø",
+      "drink": "Drikke",
+      "other": "Annet"
+    }
+  },
+  "fodmap": {
+    "group": {
+      "fructan": "Fruktaner",
+      "gos": "GOS",
+      "lactose": "Laktose",
+      "fructose": "Fruktose",
+      "sorbitol": "Sorbitol",
+      "mannitol": "Mannitol"
+    },
+    "groupHint": {
+      "fructan": "hvete, rug, løk, hvitløk",
+      "gos": "bønner, linser, kikerter, noen nøtter",
+      "lactose": "melk, yoghurt, myk ost",
+      "fructose": "honning, epler, pærer, mango",
+      "sorbitol": "steinfrukt, avokado, sukkerfritt godteri",
+      "mannitol": "sopp, blomkål, søtpotet"
+    },
+    "infoTitle": "Hva er FODMAP?",
+    "infoWhat": "FODMAP er karbohydrater som noen tar dårlig opp. I tarmen trekker de til seg vann og gjærer, noe som hos personer med IBS kan gi oppblåsthet, smerter og diaré eller forstoppelse. Det finnes seks grupper:",
+    "phasesTitle": "De tre fasene",
+    "phases": [
+      "Eliminasjon: 2–6 uker med lite FODMAP for å se om plagene blir bedre.",
+      "Reintroduksjon: test én gruppe om gangen – liten, middels og stor porsjon over tre dager, deretter en pause.",
+      "Tilpasning: spis så variert som mulig og begrens bare det du reagerer på."
+    ],
+    "infoTip": "Lav-FODMAP er ikke ment som en kost for livet. En klinisk ernæringsfysiolog hjelper deg å gjøre det trygt og få tilbake så mye variasjon som mulig.",
+    "infoDisclaimer": "Generell informasjon, ikke en kostplan. Fodmara bruker eller viser ingen offisielle FODMAP-målinger."
+  },
+  "phase": {
+    "label": "Fase",
+    "where": "Hvor er du akkurat nå?",
+    "notStarted": "Ikke startet",
+    "elimination": "Eliminasjon",
+    "reintro": "Reintroduksjon",
+    "personal": "Tilpasning",
+    "eliminationShort": "Eliminasjon",
+    "reintroShort": "Tester",
+    "personalShort": "Tilpasning",
+    "started": "Startet",
+    "weeks": "Planlagt lengde",
+    "weeksN": "{{n}} uker",
+    "dayOf": "Dag {{day}} av {{of}}",
+    "elimDone": "Eliminasjonsfasen er ferdig – klar til å teste?"
+  },
+  "test": {
+    "title": "Reintroduksjon",
+    "intro": "Etter eliminasjonsfasen tester du én FODMAP-gruppe om gangen for å se hva magen din tåler.",
+    "lockedTitle": "Planen er en del av Pro",
+    "lockedBody": "Planlegg hver test, få påminnelse om dagens porsjon, se magens tall på testdagene ved siden av uken før, og ha en oversikt over resultatene til ernæringsfysiologen din.",
+    "activeEyebrow": "Test · {{group}}",
+    "todayPortion": "Dag {{day}} av {{of}}: {{portion}} {{food}}",
+    "portion": {
+      "0": "en liten porsjon",
+      "1": "en middels porsjon",
+      "2": "en stor porsjon"
+    },
+    "portionShort": {
+      "0": "Liten",
+      "1": "Middels",
+      "2": "Stor"
+    },
+    "eaten": "Spist",
+    "markEaten": "Marker som spist",
+    "washout": "Pausedag {{day}} av {{of}}.",
+    "washoutHint": "Spis som i eliminasjonsfasen slik at neste test starter fra ro.",
+    "startsOn": "Testen med {{food}} starter i morgen.",
+    "howDidItGo": "Hvordan gikk testen med {{food}}?",
+    "seeTestTab": "Åpne fanen Test for å notere det.",
+    "active": "Pågående test",
+    "pause": "Pause",
+    "readyForResult": "Test og pause er ferdig – noter resultatet ditt nedenfor.",
+    "gutBefore": "Mage, uken før ({{n}} dager)",
+    "gutDuring": "Mage, testdager ({{n}} dager)",
+    "flaresDuring": "Oppblussinger under testen",
+    "stop": "Jeg reagerte – stopp testen",
+    "resultQ": "Ditt resultat",
+    "result": {
+      "tolerated": "Tålte",
+      "some": "Noen plager",
+      "reaction": "Tydelig reaksjon"
+    },
+    "notePh": "f.eks. greit med én skive, oppblåst med to",
+    "finish": "Lagre resultat",
+    "resultHint": "Bestem sammen med ernæringsfysiologen din – tallene over er bare det du har logget.",
+    "deleteConfirm": "Slette denne testen?",
+    "delete": "Slett test",
+    "newTitle": "Ny test",
+    "pickGroup": "Hvilken gruppe vil du teste?",
+    "resultShort": {
+      "tolerated": "Tålte",
+      "some": "Litt",
+      "reaction": "Reaksjon"
+    },
+    "pickFood": "Testmatvare",
+    "ownFoodPh": "Eller skriv din egen testmatvare",
+    "startToday": "Start i dag",
+    "startTomorrow": "Start i morgen",
+    "start": "Start test",
+    "planHint": "Tre testdager med liten, middels og stor porsjon, deretter tre pausedager. Avtal porsjonene med ernæringsfysiologen din.",
+    "results": "Resultater",
+    "testing": "Testes",
+    "notTested": "Ikke testet",
+    "history": "Alle tester",
+    "stoppedEarly": "stoppet tidlig",
+    "disclaimer": "Fodmara registrerer testene dine – den forteller deg ikke hva du skal spise. Snakk med ernæringsfysiologen din før du endrer kostholdet."
+  },
+  "health": {
+    "title": "Apple Helse",
+    "hint": "Skriv oppblussinger og toalettbesøk til Apple Helse som symptomoppføringer (kramper, oppblåsthet, diaré, forstoppelse…).",
+    "on": "På · plager skrives til Helse",
+    "offToast": "Eksport til Apple Helse slått av (eksisterende oppføringer blir i Helse)",
+    "denied": "Tilgang til Apple Helse ble ikke gitt. Du kan endre det i Helse-appen under Deling.",
+    "synced": "{{n}} oppføringer skrevet til Apple Helse"
+  },
+  "csv": {
+    "export": "Eksporter alt som CSV",
+    "done": "CSV opprettet",
+    "type": "Type",
+    "date": "Dato",
+    "time": "Tid",
+    "value": "Verdi",
+    "detail": "Detalj",
+    "note": "Notat",
+    "checkin": "Innsjekk",
+    "until": "til"
+  }
+}

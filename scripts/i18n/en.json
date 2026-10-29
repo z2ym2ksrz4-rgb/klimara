@@ -1,0 +1,93 @@
+{
+  "common": { "disclaimer": "Klimara is a self-observation diary, not a medical device. It does not diagnose and gives no treatment advice. Talk to your doctor about what you log." },
+  "plan": { "pro": "Klimara Pro" },
+  "home": {
+    "title": "Klimara", "greeting": "Hi {{name}}", "flushNow": "Hot flush now", "flushHint": "One tap – details can wait",
+    "flushesToday_one": "hot flush today", "flushesToday_other": "hot flushes today",
+    "avgLine": "{{n}} a day on average this week", "noFlushesYet": "Tap the button whenever one starts.",
+    "eveningTitle": "This evening", "checkinQ": "How was today?",
+    "fields": { "sleep": "Sleep last night", "mood": "Mood", "energy": "Energy", "anxiety": "Anxiety / unease", "joints": "Aches & joints", "fog": "Brain fog" },
+    "fieldHint": { "sleep": "1 bad · 5 good", "mood": "1 low · 5 good", "energy": "1 drained · 5 full", "anxiety": "1 calm · 5 very", "joints": "1 none · 5 a lot", "fog": "1 clear · 5 very" },
+    "nightQ": "Night sweats last night", "night": { "none": "None", "some": "Some", "soaked": "Soaked" },
+    "bleedQ": "Bleeding today", "bleed": { "none": "None", "spotting": "Spotting", "light": "Light", "normal": "Normal", "heavy": "Heavy" },
+    "saveDay": "Save the day", "savedDay": "Today is saved", "savedEmpty": "Saved",
+    "periodEyebrow": "Periods", "daysSincePeriod_one": "day since your last period", "daysSincePeriod_other": "days since your last period",
+    "twelveMonths": "12 months without a period. From now on, any bleeding should be checked by a doctor.",
+    "weekTitle": "Last 7 days", "avg7": "hot flushes a day", "vsLastWeek": "vs. the week before",
+    "flushesMonth_one": "hot flush this month", "flushesMonth_other": "hot flushes this month",
+    "sparkEmpty": "Log hot flushes for a few days and your curve appears here."
+  },
+  "episode": {
+    "title": "Hot flush", "logged": "Hot flush logged", "quickIntro": "Saved with the time. Everything else can wait.", "howStrong": "How strong was it?",
+    "level": { "mild": "Mild", "moderate": "Moderate", "severe": "Strong" }, "noLevel": "Strength not set", "laterLink": "Close", "addDetails": "Add details", "time": "Time",
+    "journey": { "trigger": "What might have set it off?", "location": "Where were you?", "relief": "What helped?", "note": "Anything to remember?" },
+    "more": "{{n}} more…", "skip": "Skip", "editAll": "Edit all details", "note": "Note", "notePh": "Anything else worth remembering", "deleteConfirm": "Delete this hot flush?"
+  },
+  "calendar": { "noCheckin": "No evening check-in this day.", "bleeding": "Bleeding", "legend": "Colour = hot flushes that day.", "flushes_one": "{{count}} hot flush", "flushes_other": "{{count}} hot flushes" },
+  "meds": {
+    "title": "Medicines & supplements", "sub": "Your own medicines and supplements, by name. Klimara never suggests treatment or doses.", "name": "Name", "namePh": "e.g. Estradiol gel or Magnesium",
+    "acute": "As needed", "preventive": "Regular", "acuteHint": "Treatments with start dates and reminders arrive in the next version.", "addFirst": "Add a medicine", "show": "Show", "hide": "Hide", "settingsHint": "Hormone therapy and other medicines"
+  },
+  "insights": {
+    "title": "Insights", "lockedTitle": "Your patterns need Pro", "lockedBody": "Hot flushes over 90 days and per month, when they come and what tends to set them off, sleep and night sweats side by side.",
+    "range": { "month": "This month", "3m": "3 months", "12m": "12 months" }, "noData": "Not enough data yet.",
+    "disclaimer": "Averages and shares are simple counts of what you logged, not evidence of cause.", "patterns": "Your patterns",
+    "patWeekday": "{{pct}}% of your hot flushes came on a {{day}}", "patTime": "{{pct}}% of your hot flushes came {{part}}",
+    "part": { "night": "at night", "morning": "in the morning", "afternoon": "in the afternoon", "evening": "in the evening" },
+    "patBasis": "Based on {{n}} hot flushes in the last 6 months", "patNote": "Patterns describe your log – they do not prove a cause. Bring them to your doctor.",
+    "patNeed": "Patterns appear after a few weeks of logging.", "flush90": "Hot flushes, last 90 days", "flush90Hint": "Dots = hot flushes per day · line = 7-day average",
+    "monthly": "Hot flushes a day, per month", "perDay": "hot flushes a day", "hardDays": "days with 6+ of {{n}}", "avgSleep": "avg. sleep (1–5)",
+    "sweatNights": "nights with sweats of {{n}} logged", "shareOfFlushes": "share of hot flushes"
+  },
+  "notif": { "checkinTitle": "How was today?", "checkinBody": "A short evening check-in keeps your picture complete." },
+  "settings": { "proThanks": "Thank you for supporting Klimara.", "freeHint": "Unlimited logging. Pro adds insights, Apple Health, backup and the PIN lock.", "transition": "Your transition" },
+  "paywall": {
+    "title": "Understand your menopause",
+    "benefits": ["Hot flushes per day and per month over time", "When they come and what tends to set them off", "Sleep and night sweats side by side", "Your full history, not just 90 days", "Apple Health, backup and PIN lock"],
+    "reasons": { "insights": "Your patterns are part of Pro.", "history": "Free shows the last 90 days. Pro keeps everything.", "pin": "The PIN lock is part of Pro.", "backup": "Backup and export are part of Pro.", "onboarding": "", "settings": "", "health": "Apple Health export is part of Pro." }
+  },
+  "onboarding": {
+    "steps": [
+      { "title": "One tap per hot flush", "body": "Tap “Hot flush now” when one starts – the time is saved and the details can wait." },
+      { "title": "A short evening check-in", "body": "Sleep, mood, energy, night sweats and bleeding in under a minute. Over weeks, your pattern appears." },
+      { "title": "Ready for the doctor", "body": "Months of notes in one overview – instead of trying to remember how it has been." }
+    ],
+    "welcome": "Welcome to Klimara", "setupTitle": "About you {{name}}", "setupBody": "Optional – it is printed at the top of your report so your doctor sees the basics.",
+    "widgetBody": "The widget logs a hot flush without opening the app and shows today's count.",
+    "sinceQ": "How long have you had symptoms?", "since": { "lt1y": "Less than a year", "1to3y": "1–3 years", "gt3y": "More than 3 years" },
+    "stageQ": "Where are you now?", "stage": { "regular": "Regular periods", "irregular": "Irregular periods", "none12": "No period for 12+ months", "unsure": "Not sure / no periods for other reasons" },
+    "lastPeriodQ": "Date of your last period (if you know it)", "hrtQ": "Do you use hormone therapy?", "hrt": { "yes": "Yes", "no": "No", "considering": "Considering it" },
+    "bleedAfterHint": "After 12 months without periods, any new bleeding should be checked by a doctor."
+  },
+  "widget": {
+    "title": "Hot flush widget", "noData": "No hot flushes logged yet", "settingsHint": "Log a hot flush from the Home Screen or Lock Screen", "guideBtn": "Add",
+    "previewLine1": "Today: 3 hot flushes", "previewLine2": "2.4 a day this week", "intro": "One tap on the widget logs a hot flush – no need to find the app first.",
+    "stepsIos": ["Touch and hold an empty spot on your Home Screen until the apps jiggle.", "Tap + (top left) and search for Klimara.", "Pick a size and tap Add Widget."],
+    "stepsAndroid": ["Touch and hold an empty spot on your home screen.", "Tap Widgets and find Klimara.", "Drag the widget onto your home screen."],
+    "lockscreen": "Lock Screen: touch and hold the Lock Screen → Customize → tap the widget area → Klimara.",
+    "flushNow": "Hot flush now", "today_one": "Today: {{count}} hot flush", "today_other": "Today: {{count}} hot flushes", "avg7": "{{n}} a day this week"
+  },
+  "redFlags": {
+    "link": "When should I see a doctor?", "title": "When to see a doctor", "intro": "Hot flushes and night sweats are common in menopause. Some symptoms are not typical and should be checked:",
+    "urgentTitle": "Same day – or call emergency services",
+    "urgent": ["Very heavy bleeding – soaking a pad or tampon every hour for several hours.", "Chest pain, sudden shortness of breath, or a painful, swollen leg.", "A sudden severe headache, weakness on one side or trouble speaking."],
+    "soonTitle": "Book an appointment soon",
+    "soon": ["Any bleeding after 12 months without a period.", "Bleeding between periods or after sex.", "Periods that are much heavier or longer than usual.", "Night sweats with fever or weight loss you can't explain.", "Low mood on most days for more than two weeks."],
+    "routine": "If nothing above applies, bring your log to your next appointment – months of notes make the conversation easier.",
+    "disclaimer": "General information, not a diagnosis. If in doubt, call your doctor."
+  },
+  "health": {
+    "title": "Apple Health", "hint": "Write hot flushes to Apple Health as symptom entries. Nothing is read from Health.", "on": "On · hot flushes are written to Health",
+    "offToast": "Apple Health export turned off (existing entries stay in Health)", "denied": "Apple Health access was not granted. You can change it in the Health app under Sharing.", "synced": "{{n}} entries written to Apple Health"
+  },
+  "csv": { "treatment": "Treatment" },
+  "regimen": { "form": { "gel": "Gel", "patch": "Patch", "tablet": "Tablet", "spray": "Spray", "vaginal": "Vaginal", "other": "Other" } },
+  "diary": {
+    "groups": { "trigger": "Possible trigger", "location": "Where", "relief": "What helped" },
+    "tags": {
+      "trigger": { "alcohol": "Alcohol", "coffee": "Coffee", "hot_drink": "Hot drink", "spicy_food": "Spicy food", "sugar": "Sugar", "large_meal": "Large meal", "warm_room": "Warm room", "sun": "Sun", "bedding": "Duvet / bedding", "clothing": "Warm clothes", "exercise": "Exercise", "stress": "Stress", "smoking": "Smoking" },
+      "location": { "home": "At home", "in_bed": "In bed", "work": "At work", "outside": "Outside", "transport": "On the way", "shop": "Shopping", "social": "With others" },
+      "relief": { "fan": "Fan", "cold_water": "Cold water", "layers_off": "Took a layer off", "open_window": "Opened a window", "cool_shower": "Cool shower", "breathing": "Slow breathing", "sit_down": "Sat down", "nothing": "Nothing helped" }
+    }
+  }
+}

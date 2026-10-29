@@ -1,0 +1,8 @@
+node_modules
+/dist
+/dist-tsc
+/ios
+/android
+.DS_Store
+*.log
+*.tsbuildinfo

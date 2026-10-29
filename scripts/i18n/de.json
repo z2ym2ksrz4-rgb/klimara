@@ -1,0 +1,548 @@
+{
+  "nav": {
+    "test": "Test"
+  },
+  "common": {
+    "disclaimer": "Fodmara ist ein Selbstbeobachtungs-Tagebuch, kein Medizinprodukt. Es stellt keine Diagnosen und gibt keine Ernährungs- oder Behandlungsempfehlungen. Besprechen Sie Ihre Einträge mit Ihrer Ärztin, Ihrem Arzt oder Ihrer Ernährungsfachkraft."
+  },
+  "home": {
+    "actingUp": "Mein Bauch spinnt",
+    "actingUpHint": "Beschwerden festhalten – Details können warten",
+    "openSince": "Beschwerden seit {{time}}",
+    "endFlare": "Es hat sich beruhigt",
+    "avg7": "Ø Bauchwert",
+    "flaresMonth_one": "Beschwerdephase in diesem Monat",
+    "flaresMonth_other": "Beschwerdephasen in diesem Monat",
+    "empty": "Keine Beschwerdephasen erfasst.",
+    "logMeal": "Mahlzeit",
+    "logStool": "Toilette",
+    "todayTitle": "Heute",
+    "todayEmpty": "Heute noch nichts erfasst. Eine Mahlzeit oder ein Toilettengang dauert fünf Sekunden.",
+    "fields": {
+      "bloating": "Blähbauch",
+      "pain": "Schmerzen",
+      "sleep": "Schlaf letzte Nacht",
+      "stress": "Stress"
+    },
+    "fieldHint": {
+      "bloating": "1 keiner · 5 stark",
+      "pain": "1 keine · 5 stark",
+      "sleep": "1 schlecht · 5 gut",
+      "stress": "1 ruhig · 5 sehr"
+    }
+  },
+  "gutScale": {
+    "question": "Wie geht es Ihrem Bauch heute?",
+    "pick": "Tippen Sie auf eine Zahl",
+    "min": "0 · keine Beschwerden",
+    "max": "10 · so schlimm wie es geht",
+    "level": {
+      "none": "Keine Beschwerden",
+      "mild": "Leicht",
+      "moderate": "Spürbar",
+      "bad": "Schlimm",
+      "veryBad": "Sehr schlimm"
+    },
+    "infoTitle": "Zur Skala 0–10",
+    "infoWhat": "Bewerten Sie Ihre Bauchbeschwerden für den ganzen Tag – Blähbauch, Schmerzen, Blähungen, Drang oder Verstopfung –, nicht den schlimmsten Moment (dafür ist eine Beschwerdephase da). Die Zahl gehört Ihnen: Vergleichen Sie sie mit Ihren eigenen Tagen.",
+    "infoScale": [
+      "0 – keine Beschwerden",
+      "1–3 – vorhanden, ändert Ihren Tag aber nicht",
+      "4–6 – spürbar, Sie planen darum herum",
+      "7–8 – schlimm, es stört deutlich",
+      "9–10 – so schlimm wie es überhaupt wird"
+    ],
+    "infoTip": "Tragen Sie den Wert jeden Abend ungefähr zur gleichen Zeit ein. Blähbauch und Schmerzen werden getrennt erfasst, weil sie sich oft unterschiedlich entwickeln."
+  },
+  "episode": {
+    "title": "Beschwerdephase",
+    "ongoing": "Bauch spinnt gerade",
+    "intensity": "Wie schlimm am stärksten",
+    "mildLbl": "leicht",
+    "severeLbl": "sehr schlimm",
+    "deleteConfirm": "Diese Beschwerdephase löschen?",
+    "quickIntro": "Erfasst. Alles andere kann warten, bis es sich beruhigt hat.",
+    "howBad": "Wie schlimm ist es gerade?",
+    "howBadNow": "Wie schlimm ist es gerade?",
+    "level": {
+      "mild": "Leicht",
+      "moderate": "Schlimm",
+      "severe": "Sehr schlimm"
+    },
+    "journey": {
+      "symptom": "Was spüren Sie?",
+      "location": "Wo im Bauch?",
+      "trigger": "Was hat es Ihrer Meinung nach ausgelöst?",
+      "relief": "Was hat geholfen?",
+      "meds": "Haben Sie etwas genommen?",
+      "note": "Noch etwas zu notieren?"
+    },
+    "cmpTitle": "Diese Phase im Vergleich zu Ihrem Durchschnitt",
+    "cmpThis": "Diese Phase",
+    "cmpAvg": "Durchschnitt aus {{n}} Phasen",
+    "cmpNeedMore": "Erfassen Sie noch ein paar Phasen, dann sehen Sie hier, wie diese im Vergleich zu Ihrem Durchschnitt liegt.",
+    "cmpLocked": "Pro zeigt, wie diese Phase im Vergleich zu Ihrem Durchschnitt liegt.",
+    "liveHint": "Wenn es sich beruhigt, folgen ein paar kurze Fragen – beantworten Sie, was Sie können."
+  },
+  "calendar": {
+    "flare": "Beschwerdephase",
+    "gut": "Bauch {{n}} – {{word}}"
+  },
+  "meds": {
+    "sub": "Ihre eigenen Medikamente und Nahrungsergänzungen, mit Namen. Fodmara schlägt nie Behandlungen oder Dosierungen vor.",
+    "namePh": "z. B. Loperamid oder Pfefferminzöl",
+    "acuteHint": "Tragen Sie ein, was Sie während einer Beschwerdephase genommen haben – in deren letzten Schritten."
+  },
+  "insights": {
+    "lockedTitle": "Ihre Muster gehören zu Pro",
+    "lockedBody": "Bauchwert über 90 Tage und pro Monat, welche Lebensmittel und FODMAP-Gruppen vor Beschwerden auftauchen, Ihre Bristol-Typen, wie Schlaf und Stress zusammenhängen – plus das PDF für Ihre Ernährungsberatung.",
+    "gut90": "Bauchwert, letzte 90 Tage",
+    "gut90Hint": "Punkte = Ihre täglichen Einträge · Linie = 7-Tage-Durchschnitt",
+    "monthly": "Durchschnittlicher Bauchwert pro Monat",
+    "avgGut": "Ø Bauchwert (0–10)",
+    "avgBloating": "Ø Blähbauch (1–5)",
+    "flares": "Beschwerdephasen",
+    "avgFlareHours": "Ø Stunden pro Phase",
+    "shareOfFlares": "Anteil der Phasen",
+    "patWeekday": "{{pct}} % Ihrer Beschwerdephasen begannen an einem {{day}}",
+    "patTime": "{{pct}} % Ihrer Beschwerdephasen begannen {{part}}",
+    "patPeriod": "{{pct}} % Ihrer Beschwerdephasen begannen innerhalb eines Tages um Ihre Periode",
+    "patBasis": "Basierend auf {{n}} Phasen in den letzten 6 Monaten",
+    "patNote": "Muster beschreiben Ihr Tagebuch – sie beweisen keine Ursache. Besprechen Sie sie mit Ihrer Ärztin, Ihrem Arzt oder Ihrer Ernährungsfachkraft.",
+    "contrast": {
+      "sleep": "Nach guten Nächten (4–5) lag Ihr Bauchwert im Schnitt bei {{hi}} – nach schlechten Nächten (1–2) bei {{lo}}",
+      "stress": "An stressigen Tagen (4–5) lag er im Schnitt bei {{hi}} – an ruhigen Tagen (1–2) bei {{lo}}"
+    },
+    "mealsTitle": "Mahlzeiten vor Beschwerden",
+    "mealPat": "{{name}}: Nach {{pct}} % der Mahlzeiten folgte innerhalb von 24 Std. eine Beschwerdephase – nach anderen Mahlzeiten {{other}} %",
+    "mealPatBasis": "{{n}} Mahlzeiten damit · {{o}} ohne · letzte 6 Monate",
+    "mealPatNote": "Gezählt wird eine Beschwerdephase, die 2–24 Stunden nach einer Mahlzeit begann. Dass eine Mahlzeit vorher kam, beweist nicht, dass sie die Ursache war – das zeigen erst die Wiedereinführungstests.",
+    "mealPatNeed": "Erfassen Sie einige Wochen lang Mahlzeiten und Beschwerden, dann vergleicht die App Lebensmittel und FODMAP-Gruppen. (bisher {{n}} Mahlzeiten)",
+    "bristolTitle": "Bristol-Typen",
+    "bristolSummary": "{{n}} Toilettengänge: {{mid}} Typ 3–4, {{hard}} Typ 1–2, {{loose}} Typ 5–7. Drang {{urg}}-mal."
+  },
+  "learn": {
+    "trendDown": "In den letzten 30 Tagen lag Ihr Bauchwert im Schnitt bei {{now}} – gesunken von {{before}} in den 30 Tagen davor.",
+    "trendUp": "In den letzten 30 Tagen lag Ihr Bauchwert im Schnitt bei {{now}} – gestiegen von {{before}} in den 30 Tagen davor.",
+    "trendSame": "In den letzten 30 Tagen lag Ihr Bauchwert im Schnitt bei {{now}} – etwa wie in den 30 Tagen davor ({{before}}).",
+    "contrast": {
+      "sleep": "Nach guten Nächten lag Ihr Bauchwert im Schnitt bei {{hi}}, nach schlechten Nächten bei {{lo}}.",
+      "stress": "An stressigen Tagen lag er im Schnitt bei {{hi}}, an ruhigen Tagen bei {{lo}}."
+    },
+    "weekday": "{{pct}} % Ihrer Beschwerdephasen begannen an einem {{day}}.",
+    "time": "Ihre Beschwerdephasen beginnen am häufigsten {{part}} ({{pct}} %).",
+    "period": "{{pct}} % Ihrer Beschwerdephasen begannen innerhalb eines Tages um Ihre Periode.",
+    "trigger": "„{{tag}}“ erfassen Sie am häufigsten als Auslöser – bei {{pct}} % der Phasen.",
+    "relief": "„{{tag}}“ hat bei {{pct}} % Ihrer Beschwerdephasen geholfen.",
+    "meal": "Nach Mahlzeiten mit {{name}} folgte in {{pct}} % der Fälle eine Beschwerdephase – nach anderen Mahlzeiten in {{other}} %."
+  },
+  "report": {
+    "title": "Reizdarm-Tagebuch – Bericht",
+    "sub": "Überblick, Bauchwert Woche für Woche, Ergebnisse der Wiedereinführung, Mahlzeiten vor Beschwerden und eine Zeile pro Beschwerdephase – für Ihre Ernährungsberatung oder Ihre Arztpraxis.",
+    "chartTitle": "Bauchwert pro Woche",
+    "notesPh": "Fragen, Lebensmittel zum Testen, Veränderungen, Medikamente…",
+    "hardDays": "Schlechte Tage (Bauch 7+)",
+    "legendGut": "Durchschnittlicher Bauchwert (0–10)",
+    "legendFlares": "Beschwerdephasen in der Woche",
+    "gutShort": "Bauch",
+    "flares": "Beschwerdephasen",
+    "scaleNote": "Bauchwert 0–10; Blähbauch, Schmerzen, Schlaf und Stress 1–5 (Schlaf: 5 = gut).",
+    "mealsLogged": "Erfasste Mahlzeiten",
+    "stoolsLogged": "Erfasste Toilettengänge",
+    "bloodNoted": "Blut notiert (Mal)",
+    "stoolsShort": "Toilette",
+    "challenges": "Wiedereinführungstests",
+    "group": "Gruppe",
+    "testFood": "Testlebensmittel",
+    "started": "Begonnen",
+    "result": "Ihr Ergebnis",
+    "gutBefore": "Bauch, Woche davor",
+    "gutTest": "Bauch, Testtage",
+    "foodOrGroup": "Lebensmittel / Gruppe",
+    "mealsWith": "Mahlzeiten",
+    "followedWith": "Phase innerhalb 24 Std.",
+    "followedOther": "Andere Mahlzeiten"
+  },
+  "notif": {
+    "checkinTitle": "Wie geht es Ihrem Bauch heute?",
+    "checkinBody": "Ein Eintrag von 5 Sekunden hält Ihre Kurve vollständig.",
+    "openBody": "Eine Beschwerdephase ist seit 12 Stunden offen. Tippen Sie, um das Ende einzutragen.",
+    "actionContinue": "Hält noch an",
+    "testTitle": "Testtag: {{group}}",
+    "testBody": "Heute: {{portion}} {{food}}. Tragen Sie heute Abend ein, wie es Ihrem Bauch geht.",
+    "resultTitle": "Wie lief der Test?",
+    "resultBody": "Der Test mit {{food}} und die Pause sind vorbei. Tragen Sie Ihr Ergebnis ein."
+  },
+  "settings": {
+    "openEpisodeReminder": "Erinnern, wenn eine Beschwerdephase 12 Std. offen ist",
+    "freeHint": "Unbegrenzt erfassen. Pro ergänzt den Wiedereinführungsplan, Muster, den PDF-Bericht und die PIN-Sperre.",
+    "cycleHint": "Ergänzt „Periode heute“ beim täglichen Eintrag und zeigt den Anteil der Beschwerden rund um Ihre Periode.",
+    "fodmap": "Low-FODMAP"
+  },
+  "paywall": {
+    "title": "Finden Sie heraus, was Ihr Bauch verträgt",
+    "benefits": [
+      "Wiedereinführungsplan: eine FODMAP-Gruppe nach der anderen, mit Erinnerungen",
+      "Welche Lebensmittel und Gruppen vor Beschwerden auftauchen",
+      "PDF-Bericht, den Ihre Ernährungsberatung in einer Minute liest",
+      "PIN-Sperre, verschlüsselte Sicherung und unbegrenzter Verlauf"
+    ],
+    "reasons": {
+      "insights": "Ihre Muster und der Bericht gehören zu Pro.",
+      "reintro": "Der Wiedereinführungsplan gehört zu Pro.",
+      "cycle": "Die Zykluserfassung gehört zu Pro.",
+      "health": "Der Export zu Apple Health gehört zu Pro."
+    }
+  },
+  "onboarding": {
+    "steps": [
+      {
+        "title": "Eine Zahl pro Tag",
+        "body": "Wie ging es Ihrem Bauch heute, 0–10? Fünf Sekunden am Abend. Über Wochen wird daraus eine Kurve, mit der Ihre Ernährungsberatung wirklich arbeiten kann."
+      },
+      {
+        "title": "Mahlzeiten, Toilette, Beschwerden",
+        "body": "Erfassen Sie eine Mahlzeit mit wenigen Tippern, einen Toilettengang mit einem und eine Beschwerdephase, wenn der Bauch spinnt. Details können warten."
+      },
+      {
+        "title": "Eine Gruppe nach der anderen testen",
+        "body": "Nach der Eliminationsphase plant Fodmara Ihre Wiedereinführungstests und speichert die Ergebnisse – privat, auf Ihrem Telefon, ohne Konto."
+      }
+    ],
+    "welcome": "Willkommen bei Fodmara",
+    "setupTitle": "Zu Ihrem Bauch {{name}}",
+    "setupBody": "Optional – es steht oben in Ihrem Bericht, damit Ihre Ernährungsberatung das Wichtigste sieht.",
+    "widgetBody": "Das Widget erfasst eine Beschwerdephase, ohne die App zu öffnen, und zeigt den heutigen Wert und Ihren 7-Tage-Durchschnitt.",
+    "extrasBody": "Optional und Teil von Pro – es wird aktiviert, sobald Sie die kostenlose Testphase starten.",
+    "typeQ": "Wie zeigt sich Ihr Reizdarm meistens?",
+    "typeQShort": "Typ",
+    "type": {
+      "diarrhoea": "Meist Durchfall (RDS-D)",
+      "constipation": "Meist Verstopfung (RDS-O)",
+      "mixed": "Beides (RDS-M)",
+      "unsure": "Weiß nicht"
+    },
+    "diagnosedQ": "Wurde ein Reizdarmsyndrom ärztlich festgestellt?",
+    "diagnosedQShort": "Diagnose",
+    "diagnosed": {
+      "yes": "Ja",
+      "inProgress": "Wird abgeklärt",
+      "no": "Nein"
+    },
+    "sinceQ": "Seit wann haben Sie Beschwerden?",
+    "sinceQShort": "Seit",
+    "since": {
+      "lt1y": "Weniger als ein Jahr",
+      "1to5y": "1–5 Jahre",
+      "gt5y": "Mehr als 5 Jahre"
+    },
+    "phaseQ": "Wo stehen Sie mit Low-FODMAP?",
+    "newHint": "Lassen Sie Ihre Beschwerden ärztlich abklären, bevor Sie mit Low-FODMAP beginnen – andere Erkrankungen (z. B. Zöliakie) können einem Reizdarm ähneln."
+  },
+  "diary": {
+    "groups": {
+      "symptom": "Beschwerden",
+      "location": "Wo",
+      "trigger": "Möglicher Auslöser",
+      "relief": "Was hat geholfen"
+    },
+    "tags": {
+      "symptom": {
+        "bloating": "Blähbauch",
+        "cramps": "Krämpfe",
+        "pain": "Bauchschmerzen",
+        "gas": "Blähungen",
+        "rumbling": "Grummeln",
+        "diarrhoea": "Durchfall",
+        "constipation": "Verstopfung",
+        "urgency": "Stuhldrang",
+        "nausea": "Übelkeit",
+        "heartburn": "Sodbrennen",
+        "fatigue": "Müdigkeit",
+        "headache": "Kopfschmerzen",
+        "anxiety": "Sorge / Unruhe"
+      },
+      "location": {
+        "upper": "Oberbauch",
+        "lower": "Unterbauch",
+        "left": "Linke Seite",
+        "right": "Rechte Seite",
+        "all_over": "Ganzer Bauch"
+      },
+      "trigger": {
+        "meal": "Eine Mahlzeit",
+        "large_meal": "Große Mahlzeit",
+        "fatty_food": "Fettiges Essen",
+        "spicy_food": "Scharfes Essen",
+        "coffee": "Kaffee",
+        "alcohol": "Alkohol",
+        "fizzy_drink": "Kohlensäure",
+        "ate_fast": "Schnell gegessen",
+        "eating_out": "Auswärts gegessen",
+        "skipped_meal": "Mahlzeit ausgelassen",
+        "stress": "Stress",
+        "poor_sleep": "Schlecht geschlafen",
+        "period": "Periode",
+        "travel": "Reise",
+        "medication_change": "Medikamentenwechsel",
+        "illness": "Krankheit"
+      },
+      "relief": {
+        "heat_pad": "Wärmflasche",
+        "peppermint_tea": "Pfefferminztee",
+        "walk": "Spaziergang",
+        "lie_down": "Hinlegen",
+        "toilet": "Toilettengang",
+        "loose_clothes": "Weite Kleidung",
+        "breathing": "Atemübung",
+        "relaxation": "Entspannung",
+        "massage": "Bauchmassage",
+        "warm_drink": "Warmes Getränk",
+        "rest": "Ruhe",
+        "distraction": "Ablenkung"
+      }
+    }
+  },
+  "widget": {
+    "title": "Beschwerden-Widget",
+    "ongoing": "Bauch spinnt gerade",
+    "settingsHint": "Beschwerden vom Home- oder Sperrbildschirm erfassen",
+    "previewLine1": "Heute: 3/10",
+    "previewLine2": "Ø 7 Tage 3,4 · 2 Phasen diesen Monat",
+    "intro": "Ein Tipp auf das Widget erfasst eine Beschwerdephase – Sie müssen die App nicht erst suchen.",
+    "actingUp": "Bauch spinnt",
+    "openFlare": "Phase läuft",
+    "flares_one": "{{count}} Phase diesen Monat",
+    "flares_other": "{{count}} Phasen diesen Monat"
+  },
+  "redFlags": {
+    "link": "Wann sollte ich zum Arzt?",
+    "title": "Wann Sie ärztlichen Rat brauchen",
+    "intro": "Ein Reizdarm ist lästig, aber nicht gefährlich. Manche Beschwerden passen nicht zum Reizdarm und sollten abgeklärt werden:",
+    "urgentTitle": "Am selben Tag – oder 112 anrufen",
+    "urgent": [
+      "Starke Blutung aus dem After, schwarzer oder teerartiger Stuhl oder Erbrechen von Blut.",
+      "Plötzliche, sehr starke Bauchschmerzen, die nicht nachlassen, oder Schmerzen mit hohem Fieber.",
+      "Sie können weder Stuhl noch Winde absetzen, der Bauch bläht sich auf und Sie erbrechen."
+    ],
+    "soonTitle": "Bald einen Termin vereinbaren",
+    "soon": [
+      "Jedes Blut im Stuhl.",
+      "Gewichtsverlust, den Sie sich nicht erklären können.",
+      "Beschwerden, die Sie nachts wecken.",
+      "Eine anhaltende Veränderung der Stuhlgewohnheiten, besonders ab 50.",
+      "Darm- oder Eierstockkrebs, Zöliakie oder chronisch-entzündliche Darmerkrankung in der Familie.",
+      "Müdigkeit mit Eisenmangel oder Blutarmut oder wiederkehrendes Fieber.",
+      "Blähbauch fast jeden Tag über Wochen (besonders bei Frauen ab 50)."
+    ],
+    "routine": "Ist Ihr Reizdarm ärztlich festgestellt und trifft nichts davon zu, gelingt Low-FODMAP am besten mit einer Ernährungsfachkraft. Ihre Arztpraxis kann Sie überweisen.",
+    "disclaimer": "Allgemeine Information, keine Diagnose. Rufen Sie im Zweifel Ihre Arztpraxis an."
+  },
+  "meal": {
+    "title": "Mahlzeit",
+    "when": "Wann",
+    "onPlate": "Auf dem Teller",
+    "contains": "Enthält typischerweise: {{groups}}",
+    "containsNone": "Keine der sechs FODMAP-Gruppen in Ihrer Auswahl.",
+    "searchPh": "Lebensmittel suchen…",
+    "addOwn": "„{{name}}“ hinzufügen",
+    "usual": "Ihre üblichen",
+    "browse": "Durchsuchen",
+    "note": "Notiz",
+    "notePh": "Restaurant, Portionsgröße, Zubereitung…",
+    "hint": "Nur was Sie gegessen haben – die Menge bestimmen Sie. Die Gruppen sind typische Inhalte, keine Bewertung.",
+    "deleteConfirm": "Diese Mahlzeit löschen?",
+    "empty": "keine Lebensmittel hinzugefügt",
+    "photo": "Foto",
+    "photoTake": "Foto aufnehmen",
+    "photoPick": "Foto auswählen",
+    "photoRemove": "Foto entfernen",
+    "photoHint": "Bleibt auf diesem Telefon – nicht in der Sicherungsdatei oder im PDF."
+  },
+  "stool": {
+    "title": "Toilettengang",
+    "bristolQ": "Wie sah es aus?",
+    "when": "Wann",
+    "type": {
+      "1": "Harte Kügelchen",
+      "2": "Klumpig",
+      "3": "Rissig",
+      "4": "Glatt",
+      "5": "Weiche Stücke",
+      "6": "Breiig",
+      "7": "Wässrig"
+    },
+    "typeLong": {
+      "1": "einzelne harte Kügelchen, schwer auszuscheiden",
+      "2": "wurstförmig, aber klumpig",
+      "3": "wie eine Wurst mit Rissen an der Oberfläche",
+      "4": "wie eine glatte, weiche Wurst",
+      "5": "weiche Stücke mit klaren Rändern",
+      "6": "lockere, breiige Stücke mit ausgefransten Rändern",
+      "7": "wässrig, ohne feste Bestandteile"
+    },
+    "typeShort": "Typ {{n}}",
+    "urgency": "Starker Drang",
+    "incomplete": "Nicht ganz entleert",
+    "blood": "Blut",
+    "bloodTitle": "Blut im Stuhl sollte abgeklärt werden",
+    "bloodBody": "Vereinbaren Sie einen Arzttermin. Starke Blutung oder schwarzer Stuhl: am selben Tag Hilfe holen. Tippen für mehr.",
+    "infoTitle": "Die Bristol-Skala",
+    "infoWhat": "Ärztinnen, Ärzte und Ernährungsfachkräfte beschreiben mit der Bristol-Stuhlformen-Skala die Konsistenz ohne peinliche Worte. Typ 3–4 gilt meist als normal; 1–2 deutet auf langsame, 5–7 auf schnelle Passage.",
+    "infoTip": "Tragen Sie direkt nach dem Toilettengang ein, was Sie gesehen haben – abends ist die Erinnerung unscharf.",
+    "deleteConfirm": "Diesen Toilettengang löschen?"
+  },
+  "foods": {
+    "title": "Lebensmittel",
+    "intro": "Welche FODMAP-Gruppen ein Lebensmittel typischerweise enthält. Die Menge spielt eine große Rolle – viele Lebensmittel sind in kleinen Portionen gut verträglich.",
+    "what": "Was sind FODMAPs?",
+    "noGroup": "keine der sechs Gruppen",
+    "portion": "Menge entscheidend",
+    "none": "Kein Treffer.",
+    "yours": "Ihre eigenen Lebensmittel",
+    "untagged": "keine Gruppen gesetzt – auf Bearbeiten tippen",
+    "hide": "Aus der Liste entfernen",
+    "disclaimer": "Allgemeine Information aus öffentlichen Quellen, kein persönlicher Ernährungsplan. Was und wie viel, entscheidet Ihre Ernährungsfachkraft.",
+    "settingsHint": "Welche FODMAP-Gruppen gängige Lebensmittel enthalten",
+    "open": "Öffnen"
+  },
+  "food": {
+    "cat": {
+      "veg": "Gemüse",
+      "fruit": "Obst",
+      "grain": "Brot & Getreide",
+      "dairy": "Milchprodukte",
+      "protein": "Fleisch, Fisch & Eier",
+      "legume": "Bohnen & Linsen",
+      "nut": "Nüsse & Kerne",
+      "drink": "Getränke",
+      "other": "Sonstiges"
+    }
+  },
+  "fodmap": {
+    "group": {
+      "fructan": "Fruktane",
+      "gos": "GOS",
+      "lactose": "Laktose",
+      "fructose": "Fruktose",
+      "sorbitol": "Sorbit",
+      "mannitol": "Mannit"
+    },
+    "groupHint": {
+      "fructan": "Weizen, Roggen, Zwiebel, Knoblauch",
+      "gos": "Bohnen, Linsen, Kichererbsen, manche Nüsse",
+      "lactose": "Milch, Joghurt, Frischkäse",
+      "fructose": "Honig, Äpfel, Birnen, Mango",
+      "sorbitol": "Steinobst, Avocado, zuckerfreie Süßigkeiten",
+      "mannitol": "Pilze, Blumenkohl, Süßkartoffel"
+    },
+    "infoTitle": "Was sind FODMAPs?",
+    "infoWhat": "FODMAPs sind Kohlenhydrate, die manche Menschen schlecht aufnehmen. Im Darm ziehen sie Wasser an und werden vergoren – bei Reizdarm kann das Blähbauch, Schmerzen und Durchfall oder Verstopfung auslösen. Es gibt sechs Gruppen:",
+    "phasesTitle": "Die drei Phasen",
+    "phases": [
+      "Elimination: 2–6 Wochen mit wenig FODMAPs, um zu sehen, ob die Beschwerden besser werden.",
+      "Wiedereinführung: eine Gruppe nach der anderen testen – kleine, mittlere und große Portion über drei Tage, dann eine Pause.",
+      "Personalisierung: so abwechslungsreich wie möglich essen und nur meiden, worauf Sie reagieren."
+    ],
+    "infoTip": "Low-FODMAP ist nicht als Ernährung fürs Leben gedacht. Eine Ernährungsfachkraft hilft Ihnen, es sicher umzusetzen und möglichst viel Vielfalt zurückzugewinnen.",
+    "infoDisclaimer": "Allgemeine Information, kein Ernährungsplan. Fodmara nutzt und zeigt keine offiziellen FODMAP-Messwerte."
+  },
+  "phase": {
+    "label": "Phase",
+    "where": "Wo stehen Sie gerade?",
+    "notStarted": "Nicht begonnen",
+    "elimination": "Elimination",
+    "reintro": "Wiedereinführung",
+    "personal": "Personalisierung",
+    "eliminationShort": "Elimination",
+    "reintroShort": "Testen",
+    "personalShort": "Persönlich",
+    "started": "Begonnen",
+    "weeks": "Geplante Dauer",
+    "weeksN": "{{n}} Wochen",
+    "dayOf": "Tag {{day}} von {{of}}",
+    "elimDone": "Eliminationsphase abgeschlossen – bereit zum Testen?"
+  },
+  "test": {
+    "title": "Wiedereinführung",
+    "intro": "Nach der Eliminationsphase testen Sie eine FODMAP-Gruppe nach der anderen, um zu sehen, was Ihr Bauch verträgt.",
+    "lockedTitle": "Der Plan gehört zu Pro",
+    "lockedBody": "Planen Sie jeden Test, lassen Sie sich an die Portion des Tages erinnern, sehen Sie Ihren Bauchwert an den Testtagen neben der Woche davor und behalten Sie die Ergebnisse für Ihre Ernährungsberatung im Blick.",
+    "activeEyebrow": "Test · {{group}}",
+    "todayPortion": "Tag {{day}} von {{of}}: {{portion}} {{food}}",
+    "portion": {
+      "0": "eine kleine Portion",
+      "1": "eine mittlere Portion",
+      "2": "eine große Portion"
+    },
+    "portionShort": {
+      "0": "Klein",
+      "1": "Mittel",
+      "2": "Groß"
+    },
+    "eaten": "Gegessen",
+    "markEaten": "Als gegessen markieren",
+    "washout": "Pausentag {{day}} von {{of}}.",
+    "washoutHint": "Essen Sie wie in der Eliminationsphase, damit der nächste Test aus der Ruhe startet.",
+    "startsOn": "Der Test mit {{food}} beginnt morgen.",
+    "howDidItGo": "Wie lief der Test mit {{food}}?",
+    "seeTestTab": "Öffnen Sie den Tab Test, um es einzutragen.",
+    "active": "Laufender Test",
+    "pause": "Pause",
+    "readyForResult": "Test und Pause sind vorbei – tragen Sie unten Ihr Ergebnis ein.",
+    "gutBefore": "Bauch, Woche davor ({{n}} Tage)",
+    "gutDuring": "Bauch, Testtage ({{n}} Tage)",
+    "flaresDuring": "Beschwerdephasen während des Tests",
+    "stop": "Ich habe reagiert – Test beenden",
+    "resultQ": "Ihr Ergebnis",
+    "result": {
+      "tolerated": "Vertragen",
+      "some": "Etwas Beschwerden",
+      "reaction": "Deutliche Reaktion"
+    },
+    "notePh": "z. B. eine Scheibe geht, bei zwei Blähbauch",
+    "finish": "Ergebnis speichern",
+    "resultHint": "Entscheiden Sie gemeinsam mit Ihrer Ernährungsfachkraft – die Zahlen oben zeigen nur, was Sie erfasst haben.",
+    "deleteConfirm": "Diesen Test löschen?",
+    "delete": "Test löschen",
+    "newTitle": "Neuer Test",
+    "pickGroup": "Welche Gruppe möchten Sie testen?",
+    "resultShort": {
+      "tolerated": "Vertragen",
+      "some": "Etwas",
+      "reaction": "Reaktion"
+    },
+    "pickFood": "Testlebensmittel",
+    "ownFoodPh": "Oder eigenes Testlebensmittel eingeben",
+    "startToday": "Heute beginnen",
+    "startTomorrow": "Morgen beginnen",
+    "start": "Test starten",
+    "planHint": "Drei Testtage mit kleiner, mittlerer und großer Portion, dann drei Pausentage. Stimmen Sie die Portionen mit Ihrer Ernährungsfachkraft ab.",
+    "results": "Ergebnisse",
+    "testing": "Wird getestet",
+    "notTested": "Nicht getestet",
+    "history": "Alle Tests",
+    "stoppedEarly": "vorzeitig beendet",
+    "disclaimer": "Fodmara hält Ihre Tests fest – es sagt Ihnen nicht, was Sie essen sollen. Sprechen Sie mit Ihrer Ernährungsfachkraft, bevor Sie Ihre Ernährung ändern."
+  },
+  "health": {
+    "title": "Apple Health",
+    "hint": "Beschwerdephasen und Toilettengänge als Symptom-Einträge in Apple Health schreiben (Krämpfe, Blähbauch, Durchfall, Verstopfung…).",
+    "on": "An · Beschwerden werden in Health geschrieben",
+    "offToast": "Export zu Apple Health ausgeschaltet (vorhandene Einträge bleiben in Health)",
+    "denied": "Der Zugriff auf Apple Health wurde nicht gewährt. Sie können das in der Health-App unter Teilen ändern.",
+    "synced": "{{n}} Einträge in Apple Health geschrieben"
+  },
+  "csv": {
+    "export": "Alles als CSV exportieren",
+    "done": "CSV erstellt",
+    "type": "Typ",
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "value": "Wert",
+    "detail": "Detail",
+    "note": "Notiz",
+    "checkin": "Eintrag",
+    "until": "bis"
+  }
+}

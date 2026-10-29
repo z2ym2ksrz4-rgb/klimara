@@ -1,0 +1,548 @@
+{
+  "nav": {
+    "test": "Test"
+  },
+  "common": {
+    "disclaimer": "Fodmara er en selvobservations-dagbog, ikke medicinsk udstyr. Den stiller ikke diagnoser og giver ingen kost- eller behandlingsråd. Tal med din læge eller diætist om det, du logger."
+  },
+  "home": {
+    "actingUp": "Maven driller nu",
+    "actingUpHint": "Log et udbrud – detaljer kan vente",
+    "openSince": "Maven har drillet siden {{time}}",
+    "endFlare": "Det er faldet til ro",
+    "avg7": "gns. mavetal",
+    "flaresMonth_one": "udbrud denne måned",
+    "flaresMonth_other": "udbrud denne måned",
+    "empty": "Ingen udbrud logget.",
+    "logMeal": "Måltid",
+    "logStool": "Toilet",
+    "todayTitle": "I dag",
+    "todayEmpty": "Intet logget i dag endnu. Et måltid eller et toiletbesøg tager fem sekunder.",
+    "fields": {
+      "bloating": "Oppustethed",
+      "pain": "Smerter",
+      "sleep": "Søvn i nat",
+      "stress": "Stress"
+    },
+    "fieldHint": {
+      "bloating": "1 ingen · 5 meget",
+      "pain": "1 ingen · 5 meget",
+      "sleep": "1 dårlig · 5 god",
+      "stress": "1 rolig · 5 meget"
+    }
+  },
+  "gutScale": {
+    "question": "Hvordan har maven det i dag?",
+    "pick": "Tryk på et tal",
+    "min": "0 · ingen gener",
+    "max": "10 · så slemt som det bliver",
+    "level": {
+      "none": "Ingen gener",
+      "mild": "Lette gener",
+      "moderate": "Mærkbart",
+      "bad": "Slemt",
+      "veryBad": "Meget slemt"
+    },
+    "infoTitle": "Om skalaen 0–10",
+    "infoWhat": "Giv maven et tal for dagen som helhed – oppustethed, smerter, luft, en mave der haster eller står stille – ikke det værste øjeblik (det er det, et udbrud er til). Tallet er dit: sammenlign det med dine egne dage.",
+    "infoScale": [
+      "0 – ingen gener",
+      "1–3 – den er der, men ændrer ikke din dag",
+      "4–6 – mærkbart, du planlægger efter det",
+      "7–8 – slemt, det står i vejen",
+      "9–10 – så slemt som det nogensinde bliver"
+    ],
+    "infoTip": "Tjek ind på nogenlunde samme tid hver aften. Oppustethed og smerter logges hver for sig, fordi de ofte bevæger sig forskelligt."
+  },
+  "episode": {
+    "title": "Udbrud",
+    "ongoing": "Maven driller lige nu",
+    "intensity": "Hvor slemt, når det var værst",
+    "mildLbl": "let",
+    "severeLbl": "meget slemt",
+    "deleteConfirm": "Slet dette udbrud?",
+    "quickIntro": "Logget. Resten kan vente, til det er faldet til ro.",
+    "howBad": "Hvor slemt er det lige nu?",
+    "howBadNow": "Hvor slemt er det lige nu?",
+    "level": {
+      "mild": "Let",
+      "moderate": "Slemt",
+      "severe": "Meget slemt"
+    },
+    "journey": {
+      "symptom": "Hvad mærker du?",
+      "location": "Hvor i maven?",
+      "trigger": "Hvad tror du satte det i gang?",
+      "relief": "Hvad hjalp?",
+      "meds": "Tog du noget?",
+      "note": "Noget at huske?"
+    },
+    "cmpTitle": "Dette udbrud mod dit gennemsnit",
+    "cmpThis": "Dette udbrud",
+    "cmpAvg": "Gennemsnit af {{n}} udbrud",
+    "cmpNeedMore": "Log et par udbrud mere, så viser den her, hvordan dette ligger i forhold til dit gennemsnit.",
+    "cmpLocked": "Pro viser, hvordan dette udbrud ligger i forhold til dit gennemsnit.",
+    "liveHint": "Når det falder til ro, kommer et par korte spørgsmål – svar på det, du kan."
+  },
+  "calendar": {
+    "flare": "Udbrud",
+    "gut": "Mave {{n}} – {{word}}"
+  },
+  "meds": {
+    "sub": "Dine egne lægemidler og kosttilskud, med navn. Fodmara foreslår aldrig behandling eller doser.",
+    "namePh": "fx Imodium eller Pebermynteolie",
+    "acuteHint": "Log, hvad du tog under et udbrud, i udbruddets sidste trin."
+  },
+  "insights": {
+    "lockedTitle": "Dine mønstre kræver Pro",
+    "lockedBody": "Mavetallet over 90 dage og pr. måned, hvilke fødevarer og FODMAP-grupper der kommer før udbrud, dine Bristol-typer, hvordan søvn og stress hænger sammen – plus PDF'en til din diætist.",
+    "gut90": "Mavetal, seneste 90 dage",
+    "gut90Hint": "Prikker = dine daglige check-ins · linje = gennemsnit over 7 dage",
+    "monthly": "Gennemsnitligt mavetal pr. måned",
+    "avgGut": "gns. mavetal (0–10)",
+    "avgBloating": "gns. oppustethed (1–5)",
+    "flares": "Udbrud",
+    "avgFlareHours": "gns. timer pr. udbrud",
+    "shareOfFlares": "andel af udbrud",
+    "patWeekday": "{{pct}} % af dine udbrud startede en {{day}}",
+    "patTime": "{{pct}} % af dine udbrud startede om {{part}}",
+    "patPeriod": "{{pct}} % af dine udbrud startede inden for en dag fra din menstruation",
+    "patBasis": "Baseret på {{n}} udbrud de seneste 6 måneder",
+    "patNote": "Mønstre beskriver din dagbog – de beviser ikke en årsag. Tag dem med til din læge eller diætist.",
+    "contrast": {
+      "sleep": "Efter gode nætter (4–5) lå maven i snit på {{hi}} – efter dårlige nætter (1–2) på {{lo}}",
+      "stress": "På stressede dage (4–5) lå den i snit på {{hi}} – på rolige dage (1–2) på {{lo}}"
+    },
+    "mealsTitle": "Måltider før udbrud",
+    "mealPat": "{{name}}: et udbrud fulgte inden for 24 timer efter {{pct}} % af måltiderne – {{other}} % efter andre måltider",
+    "mealPatBasis": "{{n}} måltider med · {{o}} uden · seneste 6 måneder",
+    "mealPatNote": "Tæller et udbrud, der startede 2–24 timer efter et måltid. At et måltid kom før et udbrud, beviser ikke, at det var årsagen – det er genintroduktionstestene, der viser det.",
+    "mealPatNeed": "Log måltider og udbrud i et par uger, så sammenligner den fødevarer og FODMAP-grupper. ({{n}} måltider indtil nu)",
+    "bristolTitle": "Bristol-typer",
+    "bristolSummary": "{{n}} toiletbesøg: {{mid}} type 3–4, {{hard}} type 1–2, {{loose}} type 5–7. Det hastede {{urg}} gange."
+  },
+  "learn": {
+    "trendDown": "De seneste 30 dage lå maven i snit på {{now}} – ned fra {{before}} de 30 dage før.",
+    "trendUp": "De seneste 30 dage lå maven i snit på {{now}} – op fra {{before}} de 30 dage før.",
+    "trendSame": "De seneste 30 dage lå maven i snit på {{now}} – omtrent som de 30 dage før ({{before}}).",
+    "contrast": {
+      "sleep": "Efter gode nætter lå maven i snit på {{hi}}, efter dårlige nætter på {{lo}}.",
+      "stress": "På stressede dage lå den i snit på {{hi}}, på rolige dage på {{lo}}."
+    },
+    "weekday": "{{pct}} % af dine udbrud startede en {{day}}.",
+    "time": "Dine udbrud starter oftest om {{part}} ({{pct}} %).",
+    "period": "{{pct}} % af dine udbrud startede inden for en dag fra din menstruation.",
+    "trigger": "»{{tag}}« er det, du oftest logger som udløser – ved {{pct}} % af udbruddene.",
+    "relief": "»{{tag}}« hjalp ved {{pct}} % af dine udbrud.",
+    "meal": "Efter måltider med {{name}} fulgte et udbrud i {{pct}} % af tilfældene – mod {{other}} % efter andre måltider."
+  },
+  "report": {
+    "title": "IBS-dagbog – rapport",
+    "sub": "Overblik, mavetal uge for uge, genintroduktionsresultater, måltider før udbrud og én linje pr. udbrud – sat op til din diætist eller læge.",
+    "chartTitle": "Mavetal pr. uge",
+    "notesPh": "Spørgsmål, fødevarer du vil teste, ændringer, medicin…",
+    "hardDays": "Dårlige dage (mave 7+)",
+    "legendGut": "Gennemsnitligt mavetal (0–10)",
+    "legendFlares": "Udbrud den uge",
+    "gutShort": "Mave",
+    "flares": "Udbrud",
+    "scaleNote": "Mavetal 0–10; oppustethed, smerter, søvn og stress 1–5 (søvn: 5 = god).",
+    "mealsLogged": "Måltider logget",
+    "stoolsLogged": "Toiletbesøg logget",
+    "bloodNoted": "Blod noteret (gange)",
+    "stoolsShort": "Toilet",
+    "challenges": "Genintroduktionstest",
+    "group": "Gruppe",
+    "testFood": "Testfødevare",
+    "started": "Startet",
+    "result": "Dit resultat",
+    "gutBefore": "Mave, ugen før",
+    "gutTest": "Mave, testdage",
+    "foodOrGroup": "Fødevare / gruppe",
+    "mealsWith": "Måltider",
+    "followedWith": "Udbrud inden for 24 t",
+    "followedOther": "Andre måltider"
+  },
+  "notif": {
+    "checkinTitle": "Hvordan har maven det i dag?",
+    "checkinBody": "Et check-in på 5 sekunder holder din kurve komplet.",
+    "openBody": "Et udbrud har stået åbent i 12 timer. Tryk for at sætte, hvornår det sluttede.",
+    "actionContinue": "Stadig i gang",
+    "testTitle": "Testdag: {{group}}",
+    "testBody": "I dag: {{portion}} {{food}}. Log, hvordan maven har det i aften.",
+    "resultTitle": "Hvordan gik testen?",
+    "resultBody": "Testen med {{food}} og pausen er slut. Notér dit resultat."
+  },
+  "settings": {
+    "openEpisodeReminder": "Påmind mig, hvis et udbrud står åbent i 12 timer",
+    "freeHint": "Ubegrænset logning. Pro giver genintroduktionsplanen, mønstre, PDF-rapporten og PIN-låsen.",
+    "cycleHint": "Tilføjer »menstruation i dag« til check-in og viser andelen af udbrud omkring din menstruation.",
+    "fodmap": "Lav-FODMAP"
+  },
+  "paywall": {
+    "title": "Find ud af, hvad din mave tåler",
+    "benefits": [
+      "Genintroduktionsplan: én FODMAP-gruppe ad gangen, med påmindelser",
+      "Hvilke fødevarer og grupper der kommer før udbrud",
+      "PDF-rapport, din diætist kan læse på et minut",
+      "PIN-lås, krypteret backup og ubegrænset historik"
+    ],
+    "reasons": {
+      "insights": "Dine mønstre og rapporten er en del af Pro.",
+      "reintro": "Genintroduktionsplanen er en del af Pro.",
+      "cycle": "Cyklussporing er en del af Pro.",
+      "health": "Eksport til Apple Sundhed er en del af Pro."
+    }
+  },
+  "onboarding": {
+    "steps": [
+      {
+        "title": "Ét tal om dagen",
+        "body": "Hvordan havde maven det i dag, 0–10? Fem sekunder om aftenen. Over uger bliver tallet til en kurve, din diætist faktisk kan bruge."
+      },
+      {
+        "title": "Måltider, toilet, udbrud",
+        "body": "Log et måltid med få tryk, et toiletbesøg med ét og et udbrud, når maven driller. Detaljerne kan vente."
+      },
+      {
+        "title": "Test én gruppe ad gangen",
+        "body": "Efter eliminationsfasen planlægger Fodmara dine genintroduktionstest og gemmer resultaterne – privat, på din telefon, uden konto."
+      }
+    ],
+    "welcome": "Velkommen til Fodmara",
+    "setupTitle": "Om din mave {{name}}",
+    "setupBody": "Valgfrit – det står øverst i din rapport, så din diætist ser det grundlæggende.",
+    "widgetBody": "Widgetten logger et udbrud uden at åbne appen og viser dagens tal og dit gennemsnit over 7 dage.",
+    "extrasBody": "Valgfrit og en del af Pro – det slås til, så snart du starter den gratis prøveperiode.",
+    "typeQ": "Hvordan viser din IBS sig mest?",
+    "typeQShort": "Type",
+    "type": {
+      "diarrhoea": "Mest diarré (IBS-D)",
+      "constipation": "Mest forstoppelse (IBS-C)",
+      "mixed": "Begge dele (IBS-M)",
+      "unsure": "Ved ikke"
+    },
+    "diagnosedQ": "Har en læge stillet diagnosen IBS?",
+    "diagnosedQShort": "Diagnose",
+    "diagnosed": {
+      "yes": "Ja",
+      "inProgress": "Bliver udredt",
+      "no": "Nej"
+    },
+    "sinceQ": "Hvor længe har du haft symptomer?",
+    "sinceQShort": "Siden",
+    "since": {
+      "lt1y": "Under et år",
+      "1to5y": "1–5 år",
+      "gt5y": "Over 5 år"
+    },
+    "phaseQ": "Hvor er du med lav-FODMAP?",
+    "newHint": "Få dine symptomer undersøgt af en læge, før du starter på lav-FODMAP – andre sygdomme (fx cøliaki) kan ligne IBS."
+  },
+  "diary": {
+    "groups": {
+      "symptom": "Symptomer",
+      "location": "Hvor",
+      "trigger": "Mulig udløser",
+      "relief": "Hvad hjalp"
+    },
+    "tags": {
+      "symptom": {
+        "bloating": "Oppustethed",
+        "cramps": "Kramper",
+        "pain": "Mavesmerter",
+        "gas": "Luft",
+        "rumbling": "Rumlen",
+        "diarrhoea": "Diarré",
+        "constipation": "Forstoppelse",
+        "urgency": "Det haster",
+        "nausea": "Kvalme",
+        "heartburn": "Halsbrand",
+        "fatigue": "Træthed",
+        "headache": "Hovedpine",
+        "anxiety": "Bekymring / uro"
+      },
+      "location": {
+        "upper": "Øverst i maven",
+        "lower": "Nederst i maven",
+        "left": "Venstre side",
+        "right": "Højre side",
+        "all_over": "Hele maven"
+      },
+      "trigger": {
+        "meal": "Et måltid",
+        "large_meal": "Stort måltid",
+        "fatty_food": "Fed mad",
+        "spicy_food": "Stærk mad",
+        "coffee": "Kaffe",
+        "alcohol": "Alkohol",
+        "fizzy_drink": "Brus",
+        "ate_fast": "Spiste hurtigt",
+        "eating_out": "Spiste ude",
+        "skipped_meal": "Sprang et måltid over",
+        "stress": "Stress",
+        "poor_sleep": "Dårlig søvn",
+        "period": "Menstruation",
+        "travel": "Rejse",
+        "medication_change": "Ændret medicin",
+        "illness": "Sygdom"
+      },
+      "relief": {
+        "heat_pad": "Varmepude",
+        "peppermint_tea": "Pebermyntete",
+        "walk": "En gåtur",
+        "lie_down": "Lå ned",
+        "toilet": "Toiletbesøg",
+        "loose_clothes": "Løst tøj",
+        "breathing": "Vejrtrækningsøvelse",
+        "relaxation": "Afslapning",
+        "massage": "Mavemassage",
+        "warm_drink": "Varm drik",
+        "rest": "Hvile",
+        "distraction": "Adspredelse"
+      }
+    }
+  },
+  "widget": {
+    "title": "Udbruds-widget",
+    "ongoing": "Maven driller lige nu",
+    "settingsHint": "Log et udbrud fra hjemmeskærmen eller låseskærmen",
+    "previewLine1": "I dag: 3/10",
+    "previewLine2": "Gns. 7 dage 3,4 · 2 udbrud denne måned",
+    "intro": "Ét tryk på widgetten logger et udbrud – du behøver ikke finde appen først.",
+    "actingUp": "Maven driller",
+    "openFlare": "Udbrud i gang",
+    "flares_one": "{{count}} udbrud denne måned",
+    "flares_other": "{{count}} udbrud denne måned"
+  },
+  "redFlags": {
+    "link": "Hvornår skal jeg til lægen?",
+    "title": "Hvornår skal du til lægen",
+    "intro": "IBS er generende, men ikke farligt. Nogle symptomer passer ikke på IBS og bør undersøges:",
+    "urgentTitle": "Samme dag – eller ring 112",
+    "urgent": [
+      "Kraftig blødning fra endetarmen, sort eller tjæreagtig afføring eller blodigt opkast.",
+      "Pludselige, voldsomme mavesmerter, der ikke går over, eller smerter med høj feber.",
+      "Du kan ikke komme af med afføring eller luft, maven svulmer op, og du kaster op."
+    ],
+    "soonTitle": "Bestil tid snart",
+    "soon": [
+      "Blod i afføringen.",
+      "Vægttab, du ikke kan forklare.",
+      "Symptomer, der vækker dig om natten.",
+      "En vedvarende ændring i afføringsvanerne, især hvis du er over 50.",
+      "Tarm- eller æggestokkræft, cøliaki eller kronisk tarmbetændelse i familien.",
+      "Træthed med lavt jern eller blodmangel, eller feber, der kommer igen.",
+      "Oppustethed næsten hver dag i flere uger (især for kvinder over 50)."
+    ],
+    "routine": "Er din IBS diagnosticeret, og passer intet af ovenstående, gøres lav-FODMAP bedst sammen med en diætist. Din læge kan henvise dig.",
+    "disclaimer": "Generel information, ikke en diagnose. Er du i tvivl, så ring til din læge."
+  },
+  "meal": {
+    "title": "Måltid",
+    "when": "Hvornår",
+    "onPlate": "På tallerkenen",
+    "contains": "Indeholder typisk: {{groups}}",
+    "containsNone": "Ingen af de seks FODMAP-grupper i det, du har valgt.",
+    "searchPh": "Søg i fødevarer…",
+    "addOwn": "Tilføj »{{name}}«",
+    "usual": "Dine faste",
+    "browse": "Gennemse",
+    "note": "Note",
+    "notePh": "Restaurant, portionsstørrelse, tilberedning…",
+    "hint": "Kun hvad du spiste – mængden bestemmer du. Grupperne er typisk indhold, ikke en dom.",
+    "deleteConfirm": "Slet dette måltid?",
+    "empty": "ingen fødevarer tilføjet",
+    "photo": "Foto",
+    "photoTake": "Tag foto",
+    "photoPick": "Vælg foto",
+    "photoRemove": "Fjern foto",
+    "photoHint": "Bliver på denne telefon – ikke i backupfilen eller PDF'en."
+  },
+  "stool": {
+    "title": "Toiletbesøg",
+    "bristolQ": "Hvordan så det ud?",
+    "when": "Hvornår",
+    "type": {
+      "1": "Hårde klumper",
+      "2": "Klumpet",
+      "3": "Med revner",
+      "4": "Glat",
+      "5": "Bløde stykker",
+      "6": "Grødet",
+      "7": "Vandig"
+    },
+    "typeLong": {
+      "1": "separate hårde klumper, svære at komme af med",
+      "2": "pølseformet, men klumpet",
+      "3": "som en pølse med revner i overfladen",
+      "4": "som en glat, blød pølse",
+      "5": "bløde stykker med skarpe kanter",
+      "6": "luftige, grødede stykker med flossede kanter",
+      "7": "vandig, ingen faste stykker"
+    },
+    "typeShort": "Type {{n}}",
+    "urgency": "Det hastede",
+    "incomplete": "Ikke helt færdig",
+    "blood": "Blod",
+    "bloodTitle": "Blod i afføringen bør undersøges",
+    "bloodBody": "Bestil tid hos din læge. Kraftig blødning eller sort afføring: søg hjælp samme dag. Tryk for mere.",
+    "infoTitle": "Bristol-skalaen",
+    "infoWhat": "Læger og diætister bruger Bristol-skalaen til at beskrive afføringens konsistens uden pinlige ord. Type 3–4 regnes som regel for normal; 1–2 tyder på langsom passage, 5–7 på hurtig.",
+    "infoTip": "Log det, du ser, lige efter besøget – hukommelsen bliver uklar hen ad aftenen.",
+    "deleteConfirm": "Slet dette toiletbesøg?"
+  },
+  "foods": {
+    "title": "Fødevarer",
+    "intro": "Hvilke FODMAP-grupper en fødevare typisk indeholder. Mængden betyder meget – mange fødevarer er fine i små portioner.",
+    "what": "Hvad er FODMAP?",
+    "noGroup": "ingen af de seks grupper",
+    "portion": "mængden betyder noget",
+    "none": "Intet match.",
+    "yours": "Dine egne fødevarer",
+    "untagged": "ingen grupper sat – tryk Rediger",
+    "hide": "Fjern fra listen",
+    "disclaimer": "Generel information fra offentlige kilder, ikke en personlig kostplan. Din diætist afgør hvad og hvor meget.",
+    "settingsHint": "Hvilke FODMAP-grupper almindelige fødevarer indeholder",
+    "open": "Åbn"
+  },
+  "food": {
+    "cat": {
+      "veg": "Grøntsager",
+      "fruit": "Frugt",
+      "grain": "Brød og korn",
+      "dairy": "Mejeri",
+      "protein": "Kød, fisk og æg",
+      "legume": "Bønner og linser",
+      "nut": "Nødder og kerner",
+      "drink": "Drikke",
+      "other": "Andet"
+    }
+  },
+  "fodmap": {
+    "group": {
+      "fructan": "Fruktaner",
+      "gos": "GOS",
+      "lactose": "Laktose",
+      "fructose": "Fruktose",
+      "sorbitol": "Sorbitol",
+      "mannitol": "Mannitol"
+    },
+    "groupHint": {
+      "fructan": "hvede, rug, løg, hvidløg",
+      "gos": "bønner, linser, kikærter, visse nødder",
+      "lactose": "mælk, yoghurt, blød ost",
+      "fructose": "honning, æbler, pærer, mango",
+      "sorbitol": "stenfrugter, avocado, sukkerfri slik",
+      "mannitol": "svampe, blomkål, søde kartofler"
+    },
+    "infoTitle": "Hvad er FODMAP?",
+    "infoWhat": "FODMAP er kulhydrater, som nogle mennesker optager dårligt. I tarmen trækker de vand til sig og gærer, hvilket hos mennesker med IBS kan give oppustethed, smerter og diarré eller forstoppelse. Der er seks grupper:",
+    "phasesTitle": "De tre faser",
+    "phases": [
+      "Elimination: 2–6 uger med få FODMAP for at se, om symptomerne bliver bedre.",
+      "Genintroduktion: test én gruppe ad gangen – lille, mellem og stor portion over tre dage, derefter en pause.",
+      "Personliggørelse: spis så varieret som muligt og begræns kun det, du reagerer på."
+    ],
+    "infoTip": "Lav-FODMAP er ikke tænkt som en kost for livet. En diætist hjælper dig med at gøre det sikkert og få så meget variation tilbage som muligt.",
+    "infoDisclaimer": "Generel information, ikke en kostplan. Fodmara bruger og viser ingen officielle FODMAP-målinger."
+  },
+  "phase": {
+    "label": "Fase",
+    "where": "Hvor er du lige nu?",
+    "notStarted": "Ikke startet",
+    "elimination": "Elimination",
+    "reintro": "Genintroduktion",
+    "personal": "Personliggørelse",
+    "eliminationShort": "Elimination",
+    "reintroShort": "Test",
+    "personalShort": "Personlig",
+    "started": "Startede",
+    "weeks": "Planlagt længde",
+    "weeksN": "{{n}} uger",
+    "dayOf": "Dag {{day}} af {{of}}",
+    "elimDone": "Eliminationsfasen er slut – klar til at teste?"
+  },
+  "test": {
+    "title": "Genintroduktion",
+    "intro": "Efter eliminationsfasen tester du én FODMAP-gruppe ad gangen for at se, hvad din mave tåler.",
+    "lockedTitle": "Planen er en del af Pro",
+    "lockedBody": "Planlæg hver test, få besked om dagens portion, se dit mavetal på testdagene ved siden af ugen før, og hav et overblik over resultaterne til din diætist.",
+    "activeEyebrow": "Test · {{group}}",
+    "todayPortion": "Dag {{day}} af {{of}}: {{portion}} {{food}}",
+    "portion": {
+      "0": "en lille portion",
+      "1": "en mellemstor portion",
+      "2": "en stor portion"
+    },
+    "portionShort": {
+      "0": "Lille",
+      "1": "Mellem",
+      "2": "Stor"
+    },
+    "eaten": "Spist",
+    "markEaten": "Markér som spist",
+    "washout": "Pausedag {{day}} af {{of}}.",
+    "washoutHint": "Spis som i eliminationsfasen, så næste test starter fra ro.",
+    "startsOn": "Testen med {{food}} starter i morgen.",
+    "howDidItGo": "Hvordan gik testen med {{food}}?",
+    "seeTestTab": "Åbn fanen Test for at notere det.",
+    "active": "Igangværende test",
+    "pause": "Pause",
+    "readyForResult": "Test og pause er slut – notér dit resultat herunder.",
+    "gutBefore": "Mave, ugen før ({{n}} dage)",
+    "gutDuring": "Mave, testdage ({{n}} dage)",
+    "flaresDuring": "Udbrud under testen",
+    "stop": "Jeg reagerede – stop testen",
+    "resultQ": "Dit resultat",
+    "result": {
+      "tolerated": "Tålt",
+      "some": "Nogle gener",
+      "reaction": "Tydelig reaktion"
+    },
+    "notePh": "fx fint med en skive, oppustet med to",
+    "finish": "Gem resultat",
+    "resultHint": "Beslut det sammen med din diætist – tallene ovenfor er kun det, du har logget.",
+    "deleteConfirm": "Slet denne test?",
+    "delete": "Slet test",
+    "newTitle": "Ny test",
+    "pickGroup": "Hvilken gruppe vil du teste?",
+    "resultShort": {
+      "tolerated": "Tålt",
+      "some": "Lidt",
+      "reaction": "Reaktion"
+    },
+    "pickFood": "Testfødevare",
+    "ownFoodPh": "Eller skriv din egen testfødevare",
+    "startToday": "Start i dag",
+    "startTomorrow": "Start i morgen",
+    "start": "Start test",
+    "planHint": "Tre testdage med lille, mellem og stor portion, derefter tre pausedage. Aftal portionerne med din diætist.",
+    "results": "Resultater",
+    "testing": "Testes",
+    "notTested": "Ikke testet",
+    "history": "Alle test",
+    "stoppedEarly": "stoppet tidligt",
+    "disclaimer": "Fodmara registrerer dine test – den fortæller dig ikke, hvad du skal spise. Tal med din diætist, før du ændrer din kost."
+  },
+  "health": {
+    "title": "Apple Sundhed",
+    "hint": "Skriv udbrud og toiletbesøg til Apple Sundhed som symptom-poster (kramper, oppustethed, diarré, forstoppelse…).",
+    "on": "Til · symptomer skrives til Sundhed",
+    "offToast": "Eksport til Apple Sundhed slået fra (eksisterende poster bliver i Sundhed)",
+    "denied": "Adgang til Apple Sundhed blev ikke givet. Du kan ændre det i Sundhed-appen under Deling.",
+    "synced": "{{n}} poster skrevet til Apple Sundhed"
+  },
+  "csv": {
+    "export": "Eksportér alt som CSV",
+    "done": "CSV oprettet",
+    "type": "Type",
+    "date": "Dato",
+    "time": "Tid",
+    "value": "Værdi",
+    "detail": "Detalje",
+    "note": "Note",
+    "checkin": "Check-in",
+    "until": "til"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "appId": "com.ilumie.klimara",
+  "appName": "Klimara",
+  "appSlug": "klimara",
+  "brandColor": "#22394A",
+  "supportEmail": "klimara@ilumie.com",
+  "privacyUrl": "https://ilumie.com/klimara/privacy/",
+  "termsUrl": "https://ilumie.com/klimara/terms/",
+  "revenueCat": {
+    "ios": "appl_TODO",
+    "android": "goog_TODO",
+    "entitlement": "pro"
+  },
+  "dailyReminderHour": 21
+}
